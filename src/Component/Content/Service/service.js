@@ -1,11 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import '../../index.css';
 import Page from '../../Page/page';
 import FrameIcon from '../../../resources/frame.png';
 import DriveIcon from '../../../resources/drivetrain.png';
 import WheelIcon from '../../../resources/wheel.png';
 import ForkIcon from '../../../resources/fork.png';
+import {Link} from "react-router-dom";
+
 
 const paragraphs = [
     <div>W tej sekcji dowiesz się jak w warunkach zarówno warsztatowych jak i domowych dokonać napraw lub usprawnień swojej maszyny. 
@@ -31,7 +32,7 @@ const paragraphs = [
 
     <div><h1>Rama <img className="icon" src={FrameIcon} alt="frame"></img></h1>
         <ul>
-            <li><a href="/service/headset/1">Wymiana sterów</a></li>
+            <li><Link to={'/service/headset/1'}> Wymiana sterów </Link></li>
             <li>Wymiana wkładu suportu</li>
             <li>Wymiana siodła</li>
             <li>Wymiana mostka</li>
@@ -79,9 +80,4 @@ const Service = () => {
     );
 }
  
-ReactDOM.render(
-    <Service/>,
-    document.querySelector('#root')
-);
-
 export default Service;

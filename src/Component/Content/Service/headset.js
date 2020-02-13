@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import '../../index.css';
 import Page from '../../Page/page';
 import ChallengeBox from '../challengeBox';
@@ -122,9 +121,4 @@ const Headset = () => {
     );
 }
  
-ReactDOM.render(
-    <Headset/>,
-    document.querySelector('#root')
-);
-
 export default Headset;

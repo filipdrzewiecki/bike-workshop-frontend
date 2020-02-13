@@ -15,33 +15,30 @@ import TyreToRim from './Component/Content/Compatibility/tyres';
 import BottomBracketArticle from './Component/Content/Compatibility/bottomBracket';
 import CassetteArticle from './Component/Content/Compatibility/cassette';
 import HubCompatibilityArticle from './Component/Content/Compatibility/hub';
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
-
-import { BrowserRouter, Route} from "react-router-dom";
-
-
-
- 
 class App extends React.Component {
     render () {
         return (
         <div>
         <Logo />
         <Navbar />
-        <BrowserRouter> 
+        <Router> 
+            <Switch>
             <Route path="/service" exact component={Service}/>  
             <Route path="/service/headset/1" exact component={Headset}/>
-            <Route path="/compatibility/frame/headset" exact component={HeadsetType}/>
-            <Route path="/compatibility/frame/bottom-bracket" exact component={BottomBracketArticle}/>
-            <Route path="/compatibility/wheel/hub" exact component={HubCompatibilityArticle}/>
-            <Route path="/compatibility/wheel/tyre-to-rim" exact component={TyreToRim}/>
-            <Route path="/compatibility/drivetrain/cassette" exact component={CassetteArticle}/>
-            <Route path="/compatibility" exact component={Compatibility}/>
+            <Route path="/compatibility/frame/headset" component={HeadsetType}/>
+            <Route path="/compatibility/frame/bottom-bracket" component={BottomBracketArticle}/>
+            <Route path="/compatibility/wheel/hub" component={HubCompatibilityArticle}/>
+            <Route path="/compatibility/wheel/tyre-to-rim" component={TyreToRim}/>
+            <Route path="/compatibility/drivetrain/cassette" component={CassetteArticle}/>
+            <Route path="/compatibility" component={Compatibility}/>
             <Route path="/maintenance" component={Maintenance}/>  
             <Route path="/about" component={About}/>  
             <Route path="/products" component={Products}/>
-            <Route path="/" exact component={Main}/>    
-        </BrowserRouter>  
+            <Route path="/" exact component={Main}/>
+            </Switch>    
+        </Router>  
         </div>
         );
     }
@@ -50,8 +47,8 @@ class App extends React.Component {
 ReactDOM.render(
 
     <App/>, 
-    document.querySelector('#root'),
-    //document.getElementById('App)
+    //document.querySelector('#root'),
+    document.getElementById('root')
     
 );
 
