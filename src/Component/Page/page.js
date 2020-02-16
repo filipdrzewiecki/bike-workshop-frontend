@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css';
+import '../Css/index.css';
 import SideMenu from './sideMenu';
 import Content from './content';
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../index.css';
+import '../../Css/index.css';
 import Page from '../../Page/page';
-import ChallengeBox from '../challengeBox';
+import ChallengeBox from '../../Page/challengeBox';
 
 const list = [
     <div>Zestaw kluczy sześciokątnych</div>,

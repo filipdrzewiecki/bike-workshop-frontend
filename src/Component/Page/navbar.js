@@ -1,7 +1,7 @@
 import React from 'react';
 import NavbarButton from './navbarButton';
 import CompanyLogo from '../../resources/companyLogo.png';
-import '../index.css';
+import '../Css/index.css';
 
 const Navbar = () => {
     return (

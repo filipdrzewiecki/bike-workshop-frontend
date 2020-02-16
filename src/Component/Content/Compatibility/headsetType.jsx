@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../index.css';
+import '../../Css/index.css';
 import Page from '../../Page/page';
 import ContentTile from '../../Page/contentTile';
 import ImageEC from '../../../resources/headset/EC.jpg';

@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './Component/index.css';
+import './Component/Css/index.css';
 import Navbar from './Component/Page/navbar';
 import Logo from './Component/Page/logo';
 import Service from './Component/Content/Service/service';
-import Compatibility from './Component/Content/Compatibility/compatibility';
+import Compatibility from './Component/Content/Compatibility/compatibility.jsx';
 import Maintenance from './Component/Content/Maintenance/maintenance';
 import About from './Component/Content/About/about';
 import Products from './Component/Content/Products/products';
-import Main from './Component/Content/main';
+import Main from './Component/Content/News/main';
 import Headset from './Component/Content/Service/headset';
-import HeadsetType from './Component/Content/Compatibility/headsetType';
+import HeadsetType from './Component/Content/Compatibility/headsetType.jsx';
 import TyreToRim from './Component/Content/Compatibility/tyres';
 import BottomBracketArticle from './Component/Content/Compatibility/bottomBracket';
 import CassetteArticle from './Component/Content/Compatibility/cassette';
@@ -45,11 +45,8 @@ class App extends React.Component {
 }
  
 ReactDOM.render(
-
     <App/>, 
-    //document.querySelector('#root'),
     document.getElementById('root')
-    
 );
 
 export default App;

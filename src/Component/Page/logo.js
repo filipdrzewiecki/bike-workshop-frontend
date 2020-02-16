@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css';
+import '../Css/index.css';
 import BikeLogo from '../../resources/BikeLogo.png';
 
 
