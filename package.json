@@ -1,6 +1,7 @@
 {
-  "name": "bike-workshop-front",
+  "name": "bike-workshop-frontend",
   "version": "0.1.0",
+  "homepage": "https://filipdrzewiecki.github.io/bike-workshop-fronted",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.2.0",
