@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import '../../index.css';
 import Page from '../../Page/page';
 import ImageHub from '../../../resources/wheel/hub/hub.png';
@@ -80,10 +79,6 @@ const HubCompatibilityArticle = () => {
         </div>
     );
 }
- 
-ReactDOM.render(
-    <HubCompatibilityArticle/>,
-    document.querySelector('#root')
-);
+
 
 export default HubCompatibilityArticle;

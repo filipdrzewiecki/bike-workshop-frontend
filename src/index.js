@@ -22,8 +22,8 @@ class App extends React.Component {
         return (
         <div>
         <Logo />
-        <Navbar />
-        <Router basename={process.env.PUBLIC_URL}> 
+        <Router basename={process.env.PUBLIC_URL}>
+        <Navbar />    
             <Switch>
             <Route path="/service" exact component={Service}/>  
             <Route path="/service/headset/1" exact component={Headset}/>

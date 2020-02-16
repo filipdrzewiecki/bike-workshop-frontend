@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import '../../index.css';
 import Page from '../../Page/page';
 import FrameIcon from '../../../resources/frame.png';
 import DriveIcon from '../../../resources/drivetrain.png';
 import WheelIcon from '../../../resources/wheel.png';
 import ForkIcon from '../../../resources/fork.png';
+import {Link} from "react-router-dom";
 
 
 
@@ -61,9 +61,4 @@ const Compatibility = () => {
     );
 }
  
-ReactDOM.render(
-    <Compatibility/>,
-    document.querySelector('#root')
-);
-
 export default Compatibility;
