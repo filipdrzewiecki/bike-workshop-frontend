@@ -49,9 +49,5 @@ const BottomBracketArticle = () => {
     );
 }
  
-ReactDOM.render(
-    <BottomBracketArticle/>,
-    document.querySelector('#root')
-);
 
 export default BottomBracketArticle;

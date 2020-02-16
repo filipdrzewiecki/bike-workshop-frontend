@@ -143,10 +143,5 @@ const TyreToRimWidth = () => {
         </div>
     );
 }
- 
-ReactDOM.render(
-    <TyreToRimWidth/>,
-    document.querySelector('#root')
-);
 
 export default TyreToRimWidth;

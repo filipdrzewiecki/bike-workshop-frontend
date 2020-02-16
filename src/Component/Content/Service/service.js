@@ -33,33 +33,33 @@ const paragraphs = [
     <div><h1>Rama <img className="icon" src={FrameIcon} alt="frame"></img></h1>
         <ul>
             <li><Link to={'/service/headset/1'}> Wymiana sterów </Link></li>
-            <li>Wymiana wkładu suportu</li>
-            <li>Wymiana siodła</li>
-            <li>Wymiana mostka</li>
+            <li>Wymiana wkładu suportu - IN CONSTRUCTION</li>
+            <li>Wymiana siodła - IN CONSTRUCTION</li>
+            <li>Wymiana mostka - IN CONSTRUCTION</li>
         </ul>
     </div>,
     <div><h1>Napęd <img className="icon" src={DriveIcon} alt="frame"></img></h1>
     <ul>
-        <li><a href="/service/headset/1">Sprawdzenie zużycia napędu</a></li>
-        <li>Kaseta</li>
-        <li>Wymiana łańcucha</li>
-        <li>Wymiana zębatek korby</li>
+        <li><a href="/service/headset/1">Sprawdzenie zużycia napędu - IN CONSTRUCTION</a></li>
+        <li>Kaseta - IN CONSTRUCTION</li>
+        <li>Wymiana łańcucha - IN CONSTRUCTION</li>
+        <li>Wymiana zębatek korby - IN CONSTRUCTION</li>
     </ul>
 </div>,
 <div><h1>Amortyzator <img className="icon" src={ForkIcon} alt="frame"></img></h1>
         <ul>
-            <li><a href="/service/headset/1">Czyszczenie</a></li>
-            <li>Wymiana uszczelek</li>
-            <li>Wymiana oleju</li>
-            <li>Serwis miesięczny</li>
+            <li><a href="/service/headset/1">Czyszczenie - IN CONSTRUCTION</a></li>
+            <li>Wymiana uszczelek - IN CONSTRUCTION</li>
+            <li>Wymiana oleju - IN CONSTRUCTION</li>
+            <li>Serwis miesięczny - IN CONSTRUCTION</li>
         </ul>
     </div>,
     <div><h1>Koła <img className="icon" src={WheelIcon} alt="frame"></img></h1>
     <ul>
-        <li><a href="/service/headset/1">Centrowanie</a></li>
-        <li>Zaplatanie</li>
-        <li>Centrowanie</li>
-        <li>Serwis piast</li>
+        <li><a href="/service/headset/1">Centrowanie - IN CONSTRUCTION</a></li>
+        <li>Zaplatanie - IN CONSTRUCTION</li>
+        <li>Centrowanie - IN CONSTRUCTION</li>
+        <li>Serwis piast - IN CONSTRUCTION</li>
     </ul>
 </div>
 ]

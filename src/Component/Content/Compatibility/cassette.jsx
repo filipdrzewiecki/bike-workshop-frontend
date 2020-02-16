@@ -98,9 +98,5 @@ const CassetteArticle = () => {
     );
 }
  
-ReactDOM.render(
-    <CassetteArticle/>,
-    document.querySelector('#root')
-);
 
 export default CassetteArticle;

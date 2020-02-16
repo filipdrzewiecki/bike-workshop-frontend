@@ -168,9 +168,5 @@ const HeadsetType = () => {
     );
 }
  
-ReactDOM.render(
-    <HeadsetType/>,
-    document.querySelector('#root')
-);
 
 export default HeadsetType;

@@ -4,7 +4,7 @@ import '../index.css';
 
 const NavbarButton = (props) => {
     return (
-            <a href={props.adress}>{props.buttonName}</a>
+        <Link to={props.adress}>{props.buttonName}</Link>
     );
 }
 
