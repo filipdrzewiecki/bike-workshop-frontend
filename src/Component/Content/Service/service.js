@@ -32,7 +32,7 @@ const paragraphs = [
 
     <div><h1>Rama <img className="icon" src={FrameIcon} alt="frame"></img></h1>
         <ul>
-            <li><Link to={'/service/headset/1'}> Wymiana sterów </Link></li>
+            <li><Link to={'/service/headset'}> Wymiana sterów </Link></li>
             <li>Wymiana wkładu suportu - IN CONSTRUCTION</li>
             <li>Wymiana siodła - IN CONSTRUCTION</li>
             <li>Wymiana mostka - IN CONSTRUCTION</li>

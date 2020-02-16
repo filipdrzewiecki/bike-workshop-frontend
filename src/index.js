@@ -9,7 +9,7 @@ import Maintenance from './Component/Content/Maintenance/maintenance';
 import About from './Component/Content/About/about';
 import Products from './Component/Content/Products/products';
 import Main from './Component/Content/News/main';
-import Headset from './Component/Content/Service/headset';
+import Headset from './Component/Content/Service/HeadSet/headset.jsx';
 import HeadsetType from './Component/Content/Compatibility/headsetType.jsx';
 import TyreToRim from './Component/Content/Compatibility/tyres';
 import BottomBracketArticle from './Component/Content/Compatibility/bottomBracket';
@@ -26,7 +26,7 @@ class App extends React.Component {
         <Navbar />    
             <Switch>
             <Route path="/service" exact component={Service}/>  
-            <Route path="/service/headset/1" exact component={Headset}/>
+            <Route path="/service/headset" exact component={Headset}/>
             <Route path="/compatibility/frame/headset" component={HeadsetType}/>
             <Route path="/compatibility/frame/bottom-bracket" component={BottomBracketArticle}/>
             <Route path="/compatibility/wheel/hub" component={HubCompatibilityArticle}/>
