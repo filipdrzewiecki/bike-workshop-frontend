@@ -23,7 +23,7 @@ class App extends React.Component {
         <div>
         <Logo />
         <Navbar />
-        <Router> 
+        <Router basename={process.env.PUBLIC_URL}> 
             <Switch>
             <Route path="/service" exact component={Service}/>  
             <Route path="/service/headset/1" exact component={Headset}/>
