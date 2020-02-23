@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb66d6f4ba12cddb089f51adbbc5b6e7",
+    "revision": "788a320ceb151be54034aa9ba3d5f88c",
     "url": "/bike-workshop-frontend/index.html"
   },
   {
-    "revision": "75d526041af3e8471495",
-    "url": "/bike-workshop-frontend/static/css/main.afeede5b.chunk.css"
+    "revision": "a9a79b27b8ac8f0ee132",
+    "url": "/bike-workshop-frontend/static/css/main.43f77e0a.chunk.css"
   },
   {
-    "revision": "0dd3d8f458689b735b82",
-    "url": "/bike-workshop-frontend/static/js/2.12d1dd53.chunk.js"
+    "revision": "79761ee3063e59339006",
+    "url": "/bike-workshop-frontend/static/js/2.3b11d716.chunk.js"
   },
   {
-    "revision": "75d526041af3e8471495",
-    "url": "/bike-workshop-frontend/static/js/main.40b75db9.chunk.js"
+    "revision": "a9a79b27b8ac8f0ee132",
+    "url": "/bike-workshop-frontend/static/js/main.934bb9d7.chunk.js"
   },
   {
-    "revision": "dcb4cf1b78a3ddb7bc34",
-    "url": "/bike-workshop-frontend/static/js/runtime-main.b3cacd54.js"
+    "revision": "e1e8389bfb8036cd40a8",
+    "url": "/bike-workshop-frontend/static/js/runtime-main.8d6ced80.js"
   },
   {
     "revision": "f90acdbb677cbda753a4f5716c012bca",
