@@ -69,10 +69,6 @@ const Service = () => {
     return (
         <div>
         <Page 
-            menu1="serws"
-            menu2="serws"
-            menu3="serwis"
-
             title="Porady serwisowe"
             paragraphs={paragraphs}
         />
