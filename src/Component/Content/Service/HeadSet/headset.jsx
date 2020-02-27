@@ -4,11 +4,18 @@ import Page from '../../../Page/page';
 import PartialService from './partial';
 import FullService from './full';
 import Intro from './intro';
+import SectionPanel from '../../../Page/sectionPanel';
 
 const paragraphs = [
     <Intro/>,
-    <PartialService/>,
-    <FullService/>
+    <SectionPanel
+            title="Serwis częściowy"
+            content={<PartialService/>}
+    />,
+    <SectionPanel
+            title="Pełen serwis"
+            content={<FullService/>}
+    />
 ]
 
 const Headset = () => {

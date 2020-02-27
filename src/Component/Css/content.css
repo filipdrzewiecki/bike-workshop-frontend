@@ -1,0 +1,12 @@
+.section-parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px 20px 0px;
+}
+
+.section-block {
+    width: 550px;
+    border: 1px;
+    margin: 10px auto;
+
+}

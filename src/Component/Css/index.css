@@ -8,107 +8,6 @@ code {
     monospace;
 }
 
-.no-margin {
-  margin: 0;
-  padding: 0;
-}
-
-.pageBody {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 0 auto;
-
-}
-
-.page {
-  color: black;
-  width: 1300px;
-  height: 100%;
-  border-right: 1px solid rgba(0, 0, 0, 0.25);
-  border-left: 1px solid rgba(0, 0, 0, 0.25);
-  margin-top: 30px;
-
-}
-
-.pageSideMenu {
-  width: 310px;
-  height: 300px;
-  height: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.pageTitle {
-  position:relative;
-  font-size: 30px;
-  font-family: Poppins, sans-serif;
-  width: 30%;
-  margin-left: 80px;
-}
-
-.pageContent {
-  position:relative;
-  font-size: '14px';
-  font-family: Poppins, sans-serif;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.section {
-  margin-top: 30px;
-  width: 100%;
-}
-
-.navbar-container {
-  background-color: #282c34;
-  color: white;
-  width: 100%;
-}
-
-.navbar {
-  width: 1800px;
-  margin: 0 auto;
-  display: flex;
-}
-
-.navbar a {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin: 15px;
-  margin-right: 50px;
-}
-
-.navbar a:hover {
-  color: lightblue;
-  text-decoration: none;
-  transition-duration: 0.4s;
-}
-
-.navbarButtons {
-  width: 80%;
-  height: 80px;
-  margin: 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center 
-}
-
-.navbarLogo {
-  width: 20%;
-  height: 80px;
-  display: flex;
-  align-items: center 
-}
-
-.navbarLogo img {
-  height: 50px;
-  margin: auto;
-}
-
 .logo {
   position: relative;
   background-size: cover;
@@ -130,13 +29,6 @@ code {
   padding-left: 20px;
   padding-right: 20px;
   text-align: left;
-}
-
-.text-field {
-  font-family: 'Poppins', sans-serif;
-  color: black;
-  font-size: 16px;
-  margin-bottom: 30px;
 }
 
 .challengeBar {

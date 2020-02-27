@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Css/index.css';
+import '../Css/page.css';
 import Service from '../Content/Service/service';
 import Compatibility from '../Content/Compatibility/compatibility.jsx';
 import Maintenance from '../Content/Maintenance/maintenance';
