@@ -14,7 +14,7 @@
   
   .page {
     color: black;
-    width: 1300px;
+    width: 1000px;
     height: 100%;
     border-right: 1px solid rgba(0, 0, 0, 0.25);
     border-left: 1px solid rgba(0, 0, 0, 0.25);
@@ -23,7 +23,7 @@
   }
   
   .pageSideMenu {
-    width: 310px;
+    width: 220px;
     height: 300px;
     height: 100%;
     text-align: center;

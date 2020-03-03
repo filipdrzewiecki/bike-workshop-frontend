@@ -8,6 +8,7 @@ import Logo from './Component/Page/logo';
 import PageBody from './Component/Page/pageBody';
 
 import { BrowserRouter as Router} from "react-router-dom";
+import Footer from './Component/Page/footer';
 
 
 
@@ -19,6 +20,7 @@ class App extends React.Component {
                     <Logo/>
                     <Navbar/>
                     <PageBody/>
+                    <Footer/>
                 </Router>
             </div>
         );
