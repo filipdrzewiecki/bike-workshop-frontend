@@ -9,14 +9,17 @@ import PageBody from './Component/Page/pageBody';
 
 import { BrowserRouter as Router} from "react-router-dom";
 import Footer from './Component/Page/footer';
-
+import SlidingNavbar from './Component/Page/slidingNavbar';
 
 
 class App extends React.Component {
+
     render() {
         return (
             <div>
+
                 <Router basename={process.env.PUBLIC_URL}>
+                    <SlidingNavbar/>
                     <Logo/>
                     <Navbar/>
                     <PageBody/>

@@ -6,12 +6,13 @@
   "dependencies": {
     "@material-ui/core": "^4.0.0-rc.0",
     "@material-ui/icons": "latest",
+    "classnames": "^2.2.6",
     "gh-pages": "^2.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.1.1",
     "react-scripts": "3.1.2",
-    "typescript": "^3.8.2"
+    "typescript": "^3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
