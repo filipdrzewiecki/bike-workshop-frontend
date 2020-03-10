@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bike-workshop-frontend/static/css/main.e9b54c16.chunk.css",
-    "main.js": "/bike-workshop-frontend/static/js/main.07eb8e7a.chunk.js",
-    "main.js.map": "/bike-workshop-frontend/static/js/main.07eb8e7a.chunk.js.map",
+    "main.js": "/bike-workshop-frontend/static/js/main.a5f83ea7.chunk.js",
+    "main.js.map": "/bike-workshop-frontend/static/js/main.a5f83ea7.chunk.js.map",
     "runtime-main.js": "/bike-workshop-frontend/static/js/runtime-main.8d6ced80.js",
     "runtime-main.js.map": "/bike-workshop-frontend/static/js/runtime-main.8d6ced80.js.map",
-    "static/js/2.83c5bdc7.chunk.js": "/bike-workshop-frontend/static/js/2.83c5bdc7.chunk.js",
-    "static/js/2.83c5bdc7.chunk.js.map": "/bike-workshop-frontend/static/js/2.83c5bdc7.chunk.js.map",
+    "static/js/2.46ec8d4d.chunk.js": "/bike-workshop-frontend/static/js/2.46ec8d4d.chunk.js",
+    "static/js/2.46ec8d4d.chunk.js.map": "/bike-workshop-frontend/static/js/2.46ec8d4d.chunk.js.map",
     "index.html": "/bike-workshop-frontend/index.html",
-    "precache-manifest.382ff7547020016891d89b2bc47fa31c.js": "/bike-workshop-frontend/precache-manifest.382ff7547020016891d89b2bc47fa31c.js",
+    "precache-manifest.6f864d5c5185a0cfc9610dd8e74852dc.js": "/bike-workshop-frontend/precache-manifest.6f864d5c5185a0cfc9610dd8e74852dc.js",
     "service-worker.js": "/bike-workshop-frontend/service-worker.js",
     "static/css/main.e9b54c16.chunk.css.map": "/bike-workshop-frontend/static/css/main.e9b54c16.chunk.css.map",
     "static/media/BikeLogo.png": "/bike-workshop-frontend/static/media/BikeLogo.f90acdbb.png",
@@ -24,6 +24,10 @@
     "static/media/drivetrain.png": "/bike-workshop-frontend/static/media/drivetrain.c8e60832.png",
     "static/media/frame.png": "/bike-workshop-frontend/static/media/frame.408c5607.png",
     "static/media/hub.png": "/bike-workshop-frontend/static/media/hub.76ea7450.png",
+    "static/media/integratedThreaded.jpg": "/bike-workshop-frontend/static/media/integratedThreaded.8aa5552a.jpg",
+    "static/media/octalink.png": "/bike-workshop-frontend/static/media/octalink.5a60beeb.png",
+    "static/media/pressFit.jpg": "/bike-workshop-frontend/static/media/pressFit.296c4b46.jpg",
+    "static/media/square.jpg": "/bike-workshop-frontend/static/media/square.46bb2099.jpg",
     "static/media/wheel.png": "/bike-workshop-frontend/static/media/wheel.be36551f.png"
   }
 }
