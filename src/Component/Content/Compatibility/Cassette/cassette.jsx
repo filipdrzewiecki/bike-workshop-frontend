@@ -1,11 +1,13 @@
+import '../../../Css/index.css';
 import React from 'react';
-import '../../Css/index.css';
-import Page from '../../Page/page';
-import ContentTile from '../../Page/contentTile';
-import ImageShimanoFreeWheel from '../../../resources/wheel/freewheelTypes/ShimanoFreewheel.jpeg';
-import ImageCampagnoloFreeWheel from '../../../resources/wheel/freewheelTypes/CampagnoloFreewheel.jpeg';
-import ImageShimanoSplineFreeWheel from '../../../resources/wheel/freewheelTypes/ShimanoSplineFreewheel.jpeg';
-import ImageSramFreeWheel from '../../../resources/wheel/freewheelTypes/SramFreewheel.jpg';
+import Page from '../../../Page/page';
+
+import ContentTile from '../../../Page/contentTile';
+
+import ImageShimanoFreeWheel from '../../../../resources/wheel/freewheelTypes/ShimanoFreewheel.jpeg';
+import ImageCampagnoloFreeWheel from '../../../../resources/wheel/freewheelTypes/CampagnoloFreewheel.jpeg';
+import ImageShimanoSplineFreeWheel from '../../../../resources/wheel/freewheelTypes/ShimanoSplineFreewheel.jpeg';
+import ImageSramFreeWheel from '../../../../resources/wheel/freewheelTypes/SramFreewheel.jpg';
 
 
 const TableCassetteDimensions = () => {

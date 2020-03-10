@@ -1,97 +1,16 @@
+import '../../../Css/index.css';
 import React from 'react';
-import '../../Css/index.css';
-import Page from '../../Page/page';
-import ContentTile from '../../Page/contentTile';
-import ImageEC from '../../../resources/headset/EC.jpg';
-import ImageIS from '../../../resources/headset/IS.jpg';
-import ImageZS from '../../../resources/headset/ZS.jpg';
-import ImageThread from '../../../resources/headset/Thread.jpg';
+import Page from '../../../Page/page';
 
+import ContentTile from '../../../Page/contentTile';
 
-const TableHeadsetStandards = () => {
-  return (
-    <div>
-    <table className="regularTable">
-    <tr>
-     <th>Standard</th>
-     <th>Cup radius</th>
-     <th>Connection type</th>
-     <th>Steering tube</th>
-   </tr>
-   <tr>
-     <td>ZS 44</td>
-     <td>44 mm</td>
-     <td>Press-fit</td>
-     <td>1  1/8</td>
-   </tr>
-   <tr>
-     <td>ZS 56</td>
-     <td>56 mm</td>
-     <td>Press-fit</td>
-     <td>1  1/2</td>
-   </tr>
-   <tr>
-     <td>IS 42</td>
-     <td>42 mm</td>
-     <td>Miska zintegrowana</td>
-     <td>1  1/8</td>
-   </tr>
-   <tr>
-     <td>IS 52</td>
-     <td>52 mm</td>
-     <td>Miska zintegrowana</td>
-     <td>1  1/2</td>
-   </tr>
-   <tr>
-     <td>IS 47</td>
-     <td>47 mm</td>
-     <td>Miska zintegrowana</td>
-     <td>1  1/4</td>
-   </tr>
-   <tr>
-     <td>EC 34</td>
-     <td>34 mm</td>
-     <td>Press-fit</td>
-     <td>1  1/8</td>
-   </tr>
-   <tr>
-     <td>EC 30</td>
-     <td>30 mm</td>
-     <td>Press-fit</td>
-     <td>1</td>
-   </tr>
-  </table>
-  </div>
-  );
-}
+import ImageEC from '../../../../resources/headset/EC.jpg';
+import ImageIS from '../../../../resources/headset/IS.jpg';
+import ImageZS from '../../../../resources/headset/ZS.jpg';
+import ImageThread from '../../../../resources/headset/Thread.jpg';
 
-const TableExistingHeadsetTypes = () => {
-  return (
-    <div>
-      <table className="regularTable">
-        <tr>
-          <td>EC</td>
-          <td>ZS</td>
-          <td>IS</td>
-          <td>EC thread</td>
-        </tr>
-        <tr>
-          <td>A-HEAD</td>
-          <td>Półzintegrowane</td>
-          <td>Zintegrowane</td>
-          <td>Gwintowane</td>
-        </tr>
-        <tr>
-          <td><img className="photo" src={ImageEC} alt="ec"></img></td>
-          <td><img className="photo" src={ImageZS} alt="zs"></img></td>
-          <td><img className="photo" src={ImageIS} alt="ic"></img></td>
-          <td><img className="photo" src={ImageThread} alt="thread"></img></td>
-        </tr>
-        
-      </table>
-    </div>
-  );
-}
+import TableHeadsetStandards from './tableHeadsetStandard';
+import TableHeadsetTypes from './tableHeadsetType';
 
 const paragraphs = [
     <div>Ze sterami rowerowymi jest tak jak ze zdrowiem - tyle o tym wiemy, ile nas boli. Póki kierownica chodzi bez żadnych zgrzytów, a widelec nie ma żadnego luzu,
@@ -99,7 +18,7 @@ const paragraphs = [
       natomiast warto wiedzieć jaki dokładnie typ jest w naszej maszynie. Poniżej kompendium wiedzy, które z pewnością pomoże ci w krytycznej sytuacji. Dodatkowo polecam artykuł
       o praktycznym zastosowaniu informacji znalezionych tutaj, czyli <a href="/service/headset/1">kompletny serwis sterów.</a>
     </div>,
-    <TableExistingHeadsetTypes/>,
+    <TableHeadsetTypes/>,
     <TableHeadsetStandards/>, 
     <ContentTile
     imageSource = {ImageThread}
@@ -156,10 +75,6 @@ const HeadsetType = () => {
     return (
         <div>
         <Page 
-            menu1="serws"
-            menu2="serws"
-            menu3="serwis"
-
             title={"Stery - rodzaje i charakterystyka"}
             paragraphs={paragraphs}
         />

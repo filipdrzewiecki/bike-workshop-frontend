@@ -31,7 +31,7 @@ export default class SlidingNavbar extends Component {
     const { prevScrollpos } = this.state;
 
     const currentScrollPos = window.pageYOffset;
-    const visible = 660 > currentScrollPos;
+    const visible = 663 > currentScrollPos;
 
     this.setState({
       prevScrollpos: currentScrollPos,
