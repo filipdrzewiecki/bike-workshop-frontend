@@ -42,8 +42,8 @@ const CompatibilityMenu = () => {
                 <ul>
                     <li><Link to={'/compatibility/wheel/tyre-to-rim'}>Stosunek szerokości do obręczy</Link></li>
                     <li><Link to={'/compatibility/wheel/hub'}>Piasty</Link></li>
-                    <li>Centrowanie - IN CONSTRUCTION</li>
-                    <li>Serwis piast - IN CONSTRUCTION</li>
+                    <li><Link to={'/compatibility/wheel/types'}>Typy kół</Link></li>
+                    <li><Link to={'/compatibility/wheel/spokes'}>Szprychy i nyple</Link></li>
                 </ul>
             </div>
         </div>

@@ -7,16 +7,19 @@ import { Route, Switch, Link } from "react-router-dom";
 import Main from '../Content/News/main';
 //Service
 import Headset from '../Content/Service/HeadSet/headset.jsx';
-import Service from '../Content/Service/service';
+import Service from '../Content/Service/service.jsx';
 //Maintenance
 import Maintenance from '../Content/Maintenance/maintenance';
 //Compatibility
 import Compatibility from '../Content/Compatibility/main.jsx';
-import HubCompatibilityArticle from '../Content/Compatibility/Hub/hub';
+import HubCompatibilityArticle from '../Content/Compatibility/Wheels/Hub/hub';
 import CassetteArticle from '../Content/Compatibility/Cassette/cassette';
 import BottomBracketArticle from '../Content/Compatibility/BottomBracket/article';
 import HeadsetType from '../Content/Compatibility/Headset/article.jsx';
-import TyreToRim from '../Content/Compatibility/Tyres/tyres';
+import TyreToRim from '../Content/Compatibility/Wheels/Tyres/tyres';
+import SpokesArticle from '../Content/Compatibility/Wheels/Spokes/article';
+import WheelTypesArticle from '../Content/Compatibility/Wheels/WheelTypes/article';
+
 //Products
 import Products from '../Content/Products/products';
 //About
@@ -63,6 +66,8 @@ const PageBody = () => {
                 <Route path="/compatibility/frame/bottom-bracket" component={BottomBracketArticle} />
                 <Route path="/compatibility/wheel/hub" component={HubCompatibilityArticle} />
                 <Route path="/compatibility/wheel/tyre-to-rim" component={TyreToRim} />
+                <Route path="/compatibility/wheel/types" component={WheelTypesArticle} />
+                <Route path="/compatibility/wheel/spokes" component={SpokesArticle} />
                 <Route path="/compatibility/drivetrain/cassette" component={CassetteArticle} />
                 <Route path="/compatibility" component={Compatibility} />
                 {/* PRODUCTS */}

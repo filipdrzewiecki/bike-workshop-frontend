@@ -1,6 +1,6 @@
 import '../Css/index.css';
 import React, { Component } from "react";
-import Navbar from './navbar';
+import Navbar from './Navbar/navbar';
 
 
 function RenderNavbar(props) {

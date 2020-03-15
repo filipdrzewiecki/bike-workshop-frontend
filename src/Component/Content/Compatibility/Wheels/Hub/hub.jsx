@@ -1,10 +1,10 @@
-import '../../../Css/index.css';
+import '../../../../Css/index.css';
 import React from 'react';
-import Page from '../../../Page/page';
+import Page from '../../../../Page/page';
 
-import ContentTile from '../../../Page/contentTile';
+import ContentTile from '../../../../Page/contentTile';
 
-import ImageHub from '../../../../resources/wheel/hub/hub.png';
+import ImageHub from '../../../../../resources/wheel/hub/hub.png';
 
 
 const TableHubDimensions = () => {

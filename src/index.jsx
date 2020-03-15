@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 
 import './Component/Css/index.css';
 
-import Navbar from './Component/Page/navbar';
+import Navbar from './Component/Page/Navbar/navbar';
 import Logo from './Component/Page/logo';
 import PageBody from './Component/Page/pageBody';
 
-import { BrowserRouter as Router} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Footer from './Component/Page/footer';
 import SlidingNavbar from './Component/Page/slidingNavbar';
 
@@ -15,23 +15,22 @@ import SlidingNavbar from './Component/Page/slidingNavbar';
 class App extends React.Component {
 
     render() {
-        return (
+        return ( 
             <div>
-
-                <Router basename={process.env.PUBLIC_URL}>
-                    <SlidingNavbar/>
-                    <Logo/>
-                    <Navbar/>
-                    <PageBody/>
-                    <Footer/>
-                </Router>
+            <Router basename = { process.env.PUBLIC_URL } >
+            <SlidingNavbar />
+            <Logo />
+            <Navbar />
+            <PageBody />
+            <Footer />
+            </Router>  
             </div>
         );
     }
 }
 
-ReactDOM.render(
-    <App />,
+ReactDOM.render( <
+    App / > ,
     document.getElementById('root')
 );
 
