@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../Css/index.css';
-import Page from '../../Page/page';
-import SubPage from '../../Page/subPage';
+import Page from '../../Page/PageElements/article.jsx';
+import SubPage from '../../Page/PageElements/section';
 
 const content = [
     <div>

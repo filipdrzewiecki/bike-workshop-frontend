@@ -1,5 +1,5 @@
+import '../../Css/page.css';
 import React from 'react';
-import '../Css/page.css';
 
 const Page = (props) => {
     return (

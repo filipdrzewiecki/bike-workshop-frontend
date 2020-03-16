@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../Css/index.css';
 import '../../Css/content.css';
-import Page from '../../Page/page';
+import Page from '../../Page/PageElements/article.jsx';
 import ServiceMenu from './menu';
 
 

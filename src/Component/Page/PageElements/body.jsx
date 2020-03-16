@@ -1,29 +1,29 @@
-import '../Css/page.css';
+import '../../Css/index.css';
 import React from 'react';
 import SideMenu from './sideMenu.jsx';
 import { Route, Switch, Link } from "react-router-dom";
 
 //News
-import Main from '../Content/News/main';
+import Main from '../../Content/News/main.jsx';
 //Service
-import Headset from '../Content/Service/HeadSet/headset.jsx';
-import Service from '../Content/Service/service.jsx';
+import Headset from '../../Content/Service/HeadSet/article.jsx';
+import Service from '../../Content/Service/service.jsx';
 //Maintenance
-import Maintenance from '../Content/Maintenance/maintenance';
+import Maintenance from '../../Content/Maintenance/maintenance.jsx';
 //Compatibility
-import Compatibility from '../Content/Compatibility/main.jsx';
-import HubCompatibilityArticle from '../Content/Compatibility/Wheels/Hub/hub';
-import CassetteArticle from '../Content/Compatibility/Cassette/cassette';
-import BottomBracketArticle from '../Content/Compatibility/BottomBracket/article';
-import HeadsetType from '../Content/Compatibility/Headset/article.jsx';
-import TyreToRim from '../Content/Compatibility/Wheels/Tyres/tyres';
-import SpokesArticle from '../Content/Compatibility/Wheels/Spokes/article';
-import WheelTypesArticle from '../Content/Compatibility/Wheels/WheelTypes/article';
+import Compatibility from '../../Content/Compatibility/main.jsx';
+import HubCompatibilityArticle from '../../Content/Compatibility/Wheels/Hub/hub';
+import CassetteArticle from '../../Content/Compatibility/Cassette/cassette';
+import BottomBracketArticle from '../../Content/Compatibility/BottomBracket/article';
+import HeadsetType from '../../Content/Compatibility/Headset/article.jsx';
+import TyreToRim from '../../Content/Compatibility/Wheels/Tyres/tyres';
+import SpokesArticle from '../../Content/Compatibility/Wheels/Spokes/article';
+import WheelTypesArticle from '../../Content/Compatibility/Wheels/WheelTypes/article';
 
 //Products
-import Products from '../Content/Products/products';
+import Products from '../../Content/Products/products.jsx';
 //About
-import About from '../Content/About/about';
+import About from '../../Content/About/about.jsx';
 
 const LeftMenu = () => {
     return (

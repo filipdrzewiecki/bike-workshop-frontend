@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../Css/index.css';
-import SubPage from '../../../Page/subPage';
+import SubPage from '../../../Page/PageElements/section.jsx';
 
 const paragraphs = [
     <div>Typowy niedzielny rowerzysta wie o sterach w swoim rowerze dokładnie tyle, ile problemu mu sprawiają. 

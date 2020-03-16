@@ -1,6 +1,6 @@
+import '../../Css/index.css';
 import React from 'react';
-import '../Css/index.css';
-import BikeLogo from '../../resources/BikeLogo.png';
+import BikeLogo from '../../../resources/BikeLogo.png';
 
 
 const Logo = () => {

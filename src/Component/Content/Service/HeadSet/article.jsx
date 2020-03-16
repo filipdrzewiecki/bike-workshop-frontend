@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../../Css/index.css';
-import Page from '../../../Page/page';
-import PartialService from './partial';
-import FullService from './full';
+import Page from '../../../Page/PageElements/article.jsx';
+import PartialService from './partialService';
+import FullService from './fullService';
 import Intro from './intro';
-import SectionPanel from '../../../Page/sectionPanel';
+import SectionPanel from '../../../Page/ContentComponents/sectionPanel';
 
 const paragraphs = [
     <Intro/>,

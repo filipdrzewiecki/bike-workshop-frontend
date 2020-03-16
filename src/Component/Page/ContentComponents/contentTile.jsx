@@ -1,5 +1,5 @@
+import '../../Css/index.css';
 import React from 'react';
-import '../Css/index.css';
 
 const ContentTile = (props) => {
     return (

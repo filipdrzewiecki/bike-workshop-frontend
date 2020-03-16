@@ -1,5 +1,5 @@
+import '../../Css/index.css';
 import React from 'react';
-import '../Css/page.css';
 
 const SubPage = (props) => {
     return (

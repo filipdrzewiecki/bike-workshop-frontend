@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../../Css/index.css';
-import Page from '../../Page/page';
+import Page from '../../Page/PageElements/article.jsx';
 
- 
+
 const paragraphs = ['aaa', 'bbb', 'ccc']
 
-const Maintenance = () => {
+const About = () => {
     return (
         <div>
         <Page 
@@ -14,7 +14,7 @@ const Maintenance = () => {
             menu2="serws"
             menu3="serwis"
 
-            title="Sekcja o serwisowaniu"
+            title="Sekcja o nas"
             paragraphs={paragraphs}
         />
         </div>
@@ -22,8 +22,8 @@ const Maintenance = () => {
 }
  
 ReactDOM.render(
-    <Maintenance/>,
+    <About/>,
     document.querySelector('#root')
 );
 
-export default Maintenance;
+export default About;

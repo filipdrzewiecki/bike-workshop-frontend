@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../../Css/index.css';
-import SubPage from '../../../Page/subPage';
-import ChallengeBox from '../../../Page/challengeBox';
+import SubPage from '../../../Page/PageElements/section.jsx';
+import ChallengeBox from '../../../Page/ContentComponents/challengeBox.jsx';
 
 const list = [
     <div>Zestaw kluczy sześciokątnych</div>,

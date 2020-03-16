@@ -1,8 +1,8 @@
 import '../../../Css/index.css';
 import React from 'react';
-import Page from '../../../Page/page';
+import Page from '../../../Page/PageElements/article.jsx';
 
-import ContentTile from '../../../Page/contentTile';
+import ContentTile from '../../../Page/ContentComponents/contentTile';
 
 import ImageEC from '../../../../resources/headset/EC.jpg';
 import ImageIS from '../../../../resources/headset/IS.jpg';

@@ -1,8 +1,8 @@
 import '../../../../Css/index.css';
 import React from 'react';
-import Page from '../../../../Page/page';
+import Page from '../../../../Page/PageElements/article.jsx';
 
-import ContentTile from '../../../../Page/contentTile';
+import ContentTile from '../../../../Page/ContentComponents/contentTile';
 
 import ImageHub from '../../../../../resources/wheel/hub/hub.png';
 

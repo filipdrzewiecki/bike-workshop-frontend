@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../Css/index.css';
-import Page from '../../Page/page';
+import Page from '../../Page/PageElements/article.jsx';
 import CompatibilityMenu from './menu';
 
 const paragraphs = [

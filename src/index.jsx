@@ -4,12 +4,12 @@ import ReactDOM from 'react-dom';
 import './Component/Css/index.css';
 
 import Navbar from './Component/Page/Navbar/navbar';
-import Logo from './Component/Page/logo';
-import PageBody from './Component/Page/pageBody';
+import Logo from './Component/Page/PageElements/logo.jsx';
+import PageBody from './Component/Page/PageElements/body';
 
 import { BrowserRouter as Router } from "react-router-dom";
-import Footer from './Component/Page/footer';
-import SlidingNavbar from './Component/Page/slidingNavbar';
+import Footer from './Component/Page/PageElements/footer';
+import SlidingNavbar from './Component/Page/PageElements/slidingNavbar';
 
 
 class App extends React.Component {
