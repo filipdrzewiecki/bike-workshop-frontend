@@ -1,12 +1,13 @@
-import '../../../Css/index.css';
+import '../../../../Css/index.css';
 import React from 'react';
-import Page from '../../../Page/PageElements/article.jsx';
+import Page from '../../../../Page/PageElements/article.jsx';
 
-import ContentTile from '../../../Page/ContentComponents/contentTile';
-import ImageSquare from '../../../../resources/bottomBracket/square.jpg';
-import ImageOctalink from '../../../../resources/bottomBracket/octalink.png';
-import ImageIntegratedThreaded from '../../../../resources/bottomBracket/integratedThreaded.jpg';
-import ImagePressFit from '../../../../resources/bottomBracket/pressFit.jpg';
+import ContentTile from '../../../../Page/ContentComponents/contentTile';
+
+import ImageSquare from '../../../../../resources/bottomBracket/square.jpg';
+import ImageOctalink from '../../../../../resources/bottomBracket/octalink.png';
+import ImageIntegratedThreaded from '../../../../../resources/bottomBracket/integratedThreaded.jpg';
+import ImagePressFit from '../../../../../resources/bottomBracket/pressFit.jpg';
 import TableThreadedBottomBracketDimensions from './tableBBdimensions';
 import TablePFdimensions from './tableBBdimensionsPF';
 

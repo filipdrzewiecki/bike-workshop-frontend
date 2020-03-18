@@ -1,9 +1,10 @@
-import '../../../Css/index.css';
+import '../../../../Css/index.css';
 import React from 'react';
-import ImageEC from '../../../../resources/headset/EC.jpg';
-import ImageIS from '../../../../resources/headset/IS.jpg';
-import ImageZS from '../../../../resources/headset/ZS.jpg';
-import ImageThread from '../../../../resources/headset/Thread.jpg';
+
+import ImageEC from '../../../../../resources/headset/EC.jpg';
+import ImageIS from '../../../../../resources/headset/IS.jpg';
+import ImageZS from '../../../../../resources/headset/ZS.jpg';
+import ImageThread from '../../../../../resources/headset/Thread.jpg';
 
 const TableHeadsetTypes = () => {
     return (

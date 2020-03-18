@@ -1,13 +1,13 @@
-import '../../../Css/index.css';
+import '../../../../Css/index.css';
 import React from 'react';
-import Page from '../../../Page/PageElements/article.jsx';
+import Page from '../../../../Page/PageElements/article.jsx';
 
-import ContentTile from '../../../Page/ContentComponents/contentTile';
+import ContentTile from '../../../../Page/ContentComponents/contentTile';
 
-import ImageEC from '../../../../resources/headset/EC.jpg';
-import ImageIS from '../../../../resources/headset/IS.jpg';
-import ImageZS from '../../../../resources/headset/ZS.jpg';
-import ImageThread from '../../../../resources/headset/Thread.jpg';
+import ImageEC from '../../../../../resources/headset/EC.jpg';
+import ImageIS from '../../../../../resources/headset/IS.jpg';
+import ImageZS from '../../../../../resources/headset/ZS.jpg';
+import ImageThread from '../../../../../resources/headset/Thread.jpg';
 
 import TableHeadsetStandards from './tableHeadsetStandard';
 import TableHeadsetTypes from './tableHeadsetType';

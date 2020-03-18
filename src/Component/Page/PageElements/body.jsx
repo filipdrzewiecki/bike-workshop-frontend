@@ -12,13 +12,13 @@ import Service from '../../Content/Service/service.jsx';
 import Maintenance from '../../Content/Maintenance/maintenance.jsx';
 //Compatibility
 import Compatibility from '../../Content/Compatibility/main.jsx';
-import HubCompatibilityArticle from '../../Content/Compatibility/Wheels/Hub/hub';
+import HubCompatibilityArticle from '../../Content/Compatibility/Wheel/Hub/hub';
 import CassetteArticle from '../../Content/Compatibility/Cassette/cassette';
-import BottomBracketArticle from '../../Content/Compatibility/BottomBracket/article';
-import HeadsetType from '../../Content/Compatibility/Headset/article.jsx';
-import TyreToRim from '../../Content/Compatibility/Wheels/Tyres/tyres';
-import SpokesArticle from '../../Content/Compatibility/Wheels/Spokes/article';
-import WheelTypesArticle from '../../Content/Compatibility/Wheels/WheelTypes/article';
+import BottomBracketArticle from '../../Content/Compatibility/Frame/BottomBracket/article';
+import HeadsetType from '../../Content/Compatibility/Frame/Headset/article.jsx';
+import TyreToRim from '../../Content/Compatibility/Wheel/Tyres/tyres';
+import SpokesArticle from '../../Content/Compatibility/Wheel/Spokes/article';
+import WheelTypesArticle from '../../Content/Compatibility/Wheel/WheelTypes/article';
 
 //Products
 import Products from '../../Content/Products/products.jsx';
