@@ -13,7 +13,7 @@ import Maintenance from '../../Content/Maintenance/maintenance.jsx';
 //Compatibility
 import Compatibility from '../../Content/Compatibility/main.jsx';
 import HubCompatibilityArticle from '../../Content/Compatibility/Wheel/Hub/hub';
-import CassetteArticle from '../../Content/Compatibility/Cassette/cassette';
+import CassetteArticle from '../../Content/Compatibility/Drivetrain/Cassette/cassette';
 import BottomBracketArticle from '../../Content/Compatibility/Frame/BottomBracket/article';
 import HeadsetType from '../../Content/Compatibility/Frame/Headset/article.jsx';
 import TyreToRim from '../../Content/Compatibility/Wheel/Tyres/tyres';
