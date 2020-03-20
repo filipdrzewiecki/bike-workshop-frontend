@@ -11,7 +11,7 @@ import Service from '../../Content/Service/service.jsx';
 //Maintenance
 import Maintenance from '../../Content/Maintenance/maintenance.jsx';
 //Compatibility
-import Compatibility from '../../Content/Compatibility/main.jsx';
+import Compatibility from '../../Content/Compatibility/compatibility.jsx';
 import HubCompatibilityArticle from '../../Content/Compatibility/Wheel/Hub/hub';
 import CassetteArticle from '../../Content/Compatibility/Drivetrain/Cassette/cassette';
 import BottomBracketArticle from '../../Content/Compatibility/Frame/BottomBracket/article';

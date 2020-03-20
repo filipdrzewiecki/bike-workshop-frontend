@@ -7,7 +7,7 @@ import WheelIcon from '../../../resources/wheel.png';
 import ForkIcon from '../../../resources/fork.png';
 import { Link } from "react-router-dom";
 
-const CompatibilityMenu = () => {
+const MaintenanceMenu = () => {
     return (
         <div className="section-parent">
             <div className="section-block">
@@ -55,4 +55,4 @@ const CompatibilityMenu = () => {
     );
 }
 
-export default CompatibilityMenu;
+export default MaintenanceMenu;
