@@ -3,7 +3,9 @@ import '../../Css/content.css';
 import React from 'react';
 
 import WrenchIcon from '../../../resources/icon/wrench.png';
-import SpongeIcon from '../../../resources/icon/sponge.png';
+import ClothingIcon from '../../../resources/icon/hanger.png';
+import AccesoriesICon from '../../../resources/icon/torch.png';
+import PartsIcon from '../../../resources/icon/cogwheel.png';
 import { Link } from "react-router-dom";
 
 const ProductsMenu = () => {
@@ -12,40 +14,37 @@ const ProductsMenu = () => {
             <div className="section-block-long">
                 <h1>Narzędzia <img className="icon" src={WrenchIcon} alt="wrench"></img></h1>
                 <ul>
-                    <li><Link to={'/products/tools/headset'}>Czy rower ma luzy</Link></li>
-                    <li><Link to={'/products/tools/seatpost'}>Prawidłowe ciśnienie w kołach</Link></li>
-                    <li><Link to={'/products/tools/stem'}>Kiedy łańcuch i napęd są do wymiany</Link></li>
-                    <li><Link to={'/products/tools/handlebar'}>Kiedy opony są do wymiany</Link></li>
+                    <li><Link to={'/products/tools/basics'}>Zestaw podstawowych narzędzi do codziennych napraw</Link></li>
+                    <li><Link to={'/products/tools/truing-stand'}>Centrownica</Link></li>
+                    <li><Link to={'/products/tools/brands'}>Dobre i złe marki</Link></li>
+                    <li><Link to={'/products/tools/house-workshop'}>Warsztat domowy</Link></li>
                 </ul>
             </div>,
             <div className="section-block-long">
-                <h1>Akcesoria <img className="icon" src={SpongeIcon} alt="sponge"></img></h1>
+                <h1>Akcesoria <img className="icon" src={AccesoriesICon} alt="accessories"></img></h1>
                 <ul>
-                    <li><Link to={'/products/accessories/bottom-bracket'}>Jak myć rower</Link></li>
-                    <li><Link to={'/products/accessories/cassette'}>Czeszczenie i smarowanie łańcucha</Link></li>
-                    <li><Link to={'/products/accessories/rearDerailleur'}>Jak wyczyścić zębatki</Link></li>
-                    <li><Link to={'/products/accessories/frontDerailleur'}>Czyszczenie przerzutek</Link></li>
-                    <li><Link to={'/products/accessories/crank'}>Czyszczenie kół</Link></li>
+                    <li><Link to={'/products/accessories/multitool'}>Multitool</Link></li>
+                    <li><Link to={'/products/accessories/light'}>Lampki</Link></li>
+                    <li><Link to={'/products/accessories/travel-bag'}>Sakwy i torby podróżne</Link></li>
+                    <li><Link to={'/products/accessories/small-bag'}>Małe torby</Link></li>
+                    <li><Link to={'/products/accessories/carrier'}>Bagażniki</Link></li>
                 </ul>
             </div>,
             <div className="section-block-long">
-                <h1>Ubrania <img className="icon" src={SpongeIcon} alt="sponge"></img></h1>
+                <h1>Ubrania <img className="icon" src={ClothingIcon} alt="clothing"></img></h1>
                 <ul>
-                    <li><Link to={'/products/clothing/bottom-bracket'}>Jak myć rower</Link></li>
-                    <li><Link to={'/products/clothing/cassette'}>Czeszczenie i smarowanie łańcucha</Link></li>
-                    <li><Link to={'/products/clothing/rearDerailleur'}>Jak wyczyścić zębatki</Link></li>
-                    <li><Link to={'/products/clothing/frontDerailleur'}>Czyszczenie przerzutek</Link></li>
-                    <li><Link to={'/products/clothing/crank'}>Czyszczenie kół</Link></li>
+                    <li><Link to={'/products/clothing/shoes'}>Buty</Link></li>
+                    <li><Link to={'/products/clothing/pads'}>Pieluchy</Link></li>
+                    <li><Link to={'/products/clothing/helmet'}>Kaski</Link></li>
+                    <li><Link to={'/products/clothing/lycra'}>Komplety rowerowe z lycry</Link></li>
+                    <li><Link to={'/products/clothing/casual'}>Luźne i codzienne stroje</Link></li>
+                    <li><Link to={'/products/clothing/enduro'}>Stroje enduro</Link></li>
                 </ul>
             </div>,
             <div className="section-block-long">
-                <h1>Części <img className="icon" src={SpongeIcon} alt="sponge"></img></h1>
+                <h1>Części <img className="icon" src={PartsIcon} alt="parts"></img></h1>
                 <ul>
-                    <li><Link to={'/products/parts/bottom-bracket'}>Jak myć rower</Link></li>
-                    <li><Link to={'/products/parts/cassette'}>Czeszczenie i smarowanie łańcucha</Link></li>
-                    <li><Link to={'/products/parts/rearDerailleur'}>Jak wyczyścić zębatki</Link></li>
-                    <li><Link to={'/products/parts/frontDerailleur'}>Czyszczenie przerzutek</Link></li>
-                    <li><Link to={'/products/parts/crank'}>Czyszczenie kół</Link></li>
+                    <li><Link to={'/products/parts/brands'}>Główne marki napędu</Link></li>
                 </ul>
             </div>
         </div>
