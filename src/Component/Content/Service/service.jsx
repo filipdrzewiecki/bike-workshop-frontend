@@ -20,9 +20,9 @@ const paragraphs = [
             w warunkach domowych.Z tego też względu, dwukrotnie przemyśl każdą próbą dokonania naprawy lub usprawnienia, oznaczonych na
         czerwono.Może się okazać, że wycieczka do serwisu będzie dużo szybsza i tańsza. </div>, 
         <div className = "challengeBar" > < div className = "challengeBar100" > </div></div > , 
-        <div> Czerwony - porady i instrukcje przeznaczone wyłącznie dla mechaników oraz osób równie wprawionych.Kompletnie odradza się
+        <div> Czerwony - porady i instrukcje przeznaczone wyłącznie dla mechaników oraz osób równie wprawionych. Kompletnie odradza się
         dokonywanie czynności oznaczonych tym kolorem w warunkach domowych - wymagają kosztownych narzędzi bez których naprawa
-    nie będzie możliwa, a których zastąpienie lub pominięcie spowoduje nieodwracalne szkody w rowerze.SORRY. </div>, 
+    nie będzie możliwa, a których zastąpienie lub pominięcie spowoduje nieodwracalne szkody w rowerze. SORRY. </div>, 
     <div > Mając te informacje, zapraszam do lektury! </div>,
 
     <ServiceMenu />

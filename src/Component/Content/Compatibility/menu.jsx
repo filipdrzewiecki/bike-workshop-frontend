@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../Css/index.css';
 import '../../Css/content.css';
-import FrameIcon from '../../../resources/frame.png';
-import DriveIcon from '../../../resources/drivetrain.png';
-import WheelIcon from '../../../resources/wheel.png';
-import ForkIcon from '../../../resources/fork.png';
+import FrameIcon from '../../../resources/icon/frame.png';
+import DriveIcon from '../../../resources/icon/drivetrain.png';
+import WheelIcon from '../../../resources/icon/wheel.png';
+import ForkIcon from '../../../resources/icon/fork.png';
 import { Link } from "react-router-dom";
 
 const CompatibilityMenu = () => {

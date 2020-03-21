@@ -1,34 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 import '../../Css/index.css';
-import Page from '../../Page/PageElements/article.jsx';
+import React from 'react';
 
+import Page from '../../Page/PageElements/article.jsx';
+import ProductsMenu from './menu';
 
 const paragraphs = [
-    'aaa', 
     <div>
+        W tej sekcji znajdziesz recenzje wszelkiego typu produktów rowerowych i okołorowerowych. Wszystko jest kwestią gustu i podejścia, ale niektóre
+        części bądź marki są wyjątkowo lubiane i polecane przez nas. Trafią wtedy do kategorii polecane.
 
-    </div>, 
-    'ccc']
+    </div>,
+    <ProductsMenu />
+]
 
-const Products = () => {
-    return (
-        <div>
-        <Page 
-            menu1="serws"
-            menu2="serws"
-            menu3="serwis"
-
-            title="Sekcja o produktach"
-            paragraphs={paragraphs}
-        />
-        </div>
-    );
+export default class Compatibility extends React.Component {
+    render() {
+        return (
+            <div>
+                <Page
+                    title="Recenzje i opinie o produktach rowerowych"
+                    paragraphs={paragraphs}
+                />
+            </div>
+        );
+    }
 }
- 
-ReactDOM.render(
-    <Products/>,
-    document.querySelector('#root')
-);
-
-export default Products;
