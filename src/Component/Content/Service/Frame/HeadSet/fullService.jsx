@@ -1,7 +1,8 @@
+import '../../../../Css/index.css';
 import React from 'react';
-import '../../../Css/index.css';
-import SubPage from '../../../Page/PageElements/section.jsx';
-import ChallengeBox from '../../../Page/ContentComponents/challengeBox.jsx';
+
+import SubPage from '../../../../Page/PageElements/section.jsx';
+import ChallengeBox from '../../../../Page/ContentComponents/challengeBox.jsx';
 
 const list = [
     <div>Narzędzie do wybijania misek sterów – np. parktool RT-1 (nie dotyczy sterów zintegrowanych)</div>,

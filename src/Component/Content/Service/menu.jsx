@@ -13,37 +13,37 @@ const ServiceMenu = () => {
         <div className="section-block">
             <h1>Rama <img className="icon" src={FrameIcon} alt="frame"></img></h1>
             <ul>
-                <li><Link to={'/service/headset'}> Wymiana sterów </Link></li>
-                <li>Wymiana wkładu suportu - IN CONSTRUCTION</li>
-                <li>Wymiana siodła - IN CONSTRUCTION</li>
-                <li>Wymiana mostka - IN CONSTRUCTION</li>
+                <li><Link to={'/service/frame/headset'}>Stery</Link></li>
+                <li><Link to={'/service/frame/buttom-bracket'}>Suport</Link></li>
+                <li><Link to={'/service/frame/fork'}>Wymiana widelca</Link></li>
+                <li><Link to={'/service/frame/hadlebar'}>Wymiana mostka i kierownicy</Link></li>
             </ul>
         </div>,
     <div className="section-block">
-            <h1>Napęd <img className="icon" src={DriveIcon} alt="frame"></img></h1>
+            <h1>Napęd <img className="icon" src={DriveIcon} alt="drivetrain"></img></h1>
             <ul>
-                <li><a href="/service/headset/1">Sprawdzenie zużycia napędu - IN CONSTRUCTION</a></li>
-                <li>Kaseta - IN CONSTRUCTION</li>
-                <li>Wymiana łańcucha - IN CONSTRUCTION</li>
-                <li>Wymiana zębatek korby - IN CONSTRUCTION</li>
+                <li><Link to={'/service/drivetrain/derailleurs'}>Regulacja przerzutek</Link></li>
+                <li><Link to={'/service/drivetrain/chain'}>Wymiana łańcucha</Link></li>
+                <li><Link to={'/service/drivetrain/casette'}>Wymiana kasety</Link></li>
+                <li><Link to={'/service/drivetrain/crank'}>Wymiana korby</Link></li>
             </ul>
         </div>,
     <div className="section-block">
-        <h1>Amortyzator <img className="icon" src={ForkIcon} alt="frame"></img></h1>
+        <h1>Amortyzacja<img className="icon" src={ForkIcon} alt="suspension"></img></h1>
             <ul>
-                <li><a href="/service/headset/1">Czyszczenie - IN CONSTRUCTION</a></li>
-                <li>Wymiana uszczelek - IN CONSTRUCTION</li>
-                <li>Wymiana oleju - IN CONSTRUCTION</li>
-                <li>Serwis miesięczny - IN CONSTRUCTION</li>
+                <li><Link to={'/service/suspension/fork/travel-boost'}>Zwiększenie skoku widelca</Link></li>
+                <li><Link to={'/service/suspension/fork/basic'}>Regulacja amortyzatora</Link></li>
+                <li><Link to={'/service/suspension/fork/service'}>Serwis amortyzatora</Link></li>
+                <li><Link to={'/service/suspension/damper/service'}>Serwis dampera</Link></li>
             </ul>
         </div>,
     <div className="section-block">
         <h1>Koła <img className="icon" src={WheelIcon} alt="frame"></img></h1>
             <ul>
-                <li><a href="/service/headset/1">Centrowanie - IN CONSTRUCTION</a></li>
-                <li>Zaplatanie - IN CONSTRUCTION</li>
-                <li>Centrowanie - IN CONSTRUCTION</li>
-                <li>Serwis piast - IN CONSTRUCTION</li>
+                <li><Link to={'/service/wheels/freehub'}>Serwis bębenka</Link></li>
+                <li><Link to={'/service/wheels/truing'}>Centrowanie</Link></li>
+                <li><Link to={'/service/wheels/building'}>Zaplot koła od zera</Link></li>
+                <li><Link to={'/service/wheels/spoke=replace'}>Wymiana szprychy</Link></li>
             </ul>
         </div>
     </div>

@@ -6,7 +6,7 @@ import { Route, Switch, Link } from "react-router-dom";
 //News
 import Main from '../../Content/News/main.jsx';
 //Service
-import Headset from '../../Content/Service/HeadSet/article.jsx';
+import Headset from '../../Content/Service/Frame/HeadSet/article.jsx';
 import Service from '../../Content/Service/service.jsx';
 //Maintenance
 import Maintenance from '../../Content/Maintenance/maintenance.jsx';
@@ -58,10 +58,11 @@ const PageBody = () => {
                 <Route path="/" exact component={Main} />
                 {/* SERVICE */}
                 <Route path="/service" exact component={Service} />
-                <Route path="/service/headset" exact component={Headset} />
+                <Route path="/service/frame/headset" exact component={Headset} />
                 {/* MAINTENANCE */}
                 <Route path="/maintenance" component={Maintenance} />
                 {/* COMPATIBILITY */}
+                <Route path="/compatibility" component={Compatibility} />
                 <Route path="/compatibility/frame/headset" component={HeadsetType} />
                 <Route path="/compatibility/frame/bottom-bracket" component={BottomBracketArticle} />
                 <Route path="/compatibility/wheel/hub" component={HubCompatibilityArticle} />
@@ -69,7 +70,6 @@ const PageBody = () => {
                 <Route path="/compatibility/wheel/types" component={WheelTypesArticle} />
                 <Route path="/compatibility/wheel/spokes" component={SpokesArticle} />
                 <Route path="/compatibility/drivetrain/cassette" component={CassetteArticle} />
-                <Route path="/compatibility" component={Compatibility} />
                 {/* PRODUCTS */}
                 <Route path="/products" component={Products} />
                 {/* ABOUT */}
