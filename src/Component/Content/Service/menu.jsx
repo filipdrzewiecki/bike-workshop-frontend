@@ -15,7 +15,7 @@ const ServiceMenu = () => {
             <ul>
                 <li><Link to={'/service/frame/headset'}>Stery</Link></li>
                 <li><Link to={'/service/frame/buttom-bracket'}>Suport</Link></li>
-                <li><Link to={'/service/frame/fork'}>Wymiana widelca</Link></li>
+                <li><Link to={'/service/frame/fork-replace'}>Wymiana widelca</Link></li>
                 <li><Link to={'/service/frame/hadlebar'}>Wymiana mostka i kierownicy</Link></li>
             </ul>
         </div>,

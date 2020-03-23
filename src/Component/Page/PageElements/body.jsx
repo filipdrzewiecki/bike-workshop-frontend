@@ -6,7 +6,8 @@ import { Route, Switch, Link } from "react-router-dom";
 //News
 import Main from '../../Content/News/main.jsx';
 //Service
-import Headset from '../../Content/Service/Frame/HeadSet/article.jsx';
+import Headset from '../../Content/Service/Articles/headset-article.jsx';
+import ForkReplaceArticle from '../../Content/Service/Articles/fork-article.jsx';
 import Service from '../../Content/Service/service.jsx';
 //Maintenance
 import Maintenance from '../../Content/Maintenance/maintenance.jsx';
@@ -59,6 +60,7 @@ const PageBody = () => {
                 {/* SERVICE */}
                 <Route path="/service" exact component={Service} />
                 <Route path="/service/frame/headset" exact component={Headset} />
+                <Route path="/service/frame/fork-replace" exact component={ForkReplaceArticle} />
                 {/* MAINTENANCE */}
                 <Route path="/maintenance" component={Maintenance} />
                 {/* COMPATIBILITY */}
