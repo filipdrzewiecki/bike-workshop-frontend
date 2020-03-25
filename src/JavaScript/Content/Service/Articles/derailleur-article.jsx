@@ -1,0 +1,22 @@
+import '../../../Css/index.css';
+import React from 'react';
+import Article from '../../../Page/PageElements/article.jsx.js.js';
+
+const paragraphs = [
+    <div>
+        Treść artykułu.
+    </div>
+]
+
+export default class DerailleurServiceArticle extends React.Component {
+    render() {
+        return (
+            <div>
+                <Article
+                    title="Wymiana widelca"
+                    paragraphs={paragraphs}
+                />
+            </div>
+        );
+    }
+}

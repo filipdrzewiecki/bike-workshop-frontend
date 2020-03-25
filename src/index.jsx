@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './Component/Css/index.css';
+import './JavaScript/Css/index.css';
 
-import Navbar from './Component/Page/Navbar/navbar';
-import Logo from './Component/Page/PageElements/logo.jsx';
-import PageBody from './Component/Page/PageElements/body';
+import Navbar from './JavaScript/Page/Navbar/navbar';
+import Logo from './JavaScript/Page/PageElements/logo.jsx';
+import PageBody from './JavaScript/Page/PageElements/body';
 
 import { BrowserRouter as Router } from "react-router-dom";
-import Footer from './Component/Page/PageElements/footer';
-import SlidingNavbar from './Component/Page/PageElements/slidingNavbar';
+import Footer from './JavaScript/Page/PageElements/footer';
+import SlidingNavbar from './JavaScript/Page/PageElements/slidingNavbar';
 
 
 class App extends React.Component {

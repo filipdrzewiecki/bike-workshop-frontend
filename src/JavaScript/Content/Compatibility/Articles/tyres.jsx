@@ -1,6 +1,6 @@
-import '../../../../Css/index.css';
+import '../../../Css/index.css';
 import React from 'react';
-import Page from '../../../../Page/PageElements/article.jsx';
+import Page from '../../../Page/PageElements/article.jsx';
 import TableTyreDimensions from './tableTyreToRim'
 
 
