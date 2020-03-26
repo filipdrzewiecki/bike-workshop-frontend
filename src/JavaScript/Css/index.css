@@ -10,12 +10,12 @@ code {
 .logo {
     position: relative;
     background-size: cover;
-    width: 1920px;
+    width: 1900px;
     margin: 0 auto;
 }
 
 .logo img {
-    width: 1920px;
+    width: 1900px;
     height: auto;
 }
 

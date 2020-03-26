@@ -9,8 +9,8 @@ import ImageOctalink from '../../../../resources/bottomBracket/octalink.png';
 import ImageIntegratedThreaded from '../../../../resources/bottomBracket/integratedThreaded.jpg';
 import ImagePressFit from '../../../../resources/bottomBracket/pressFit.jpg';
 
-import TableThreadedBottomBracketDimensions from './tableBBdimensions';
-import TablePFdimensions from './tableBBdimensionsPF';
+import TableThreadedBottomBracketDimensions from '../Component/table-bb-threaded-dimensions';
+import TablePFdimensions from '../Component/table-bb-pf-dimensions';
 
 
 

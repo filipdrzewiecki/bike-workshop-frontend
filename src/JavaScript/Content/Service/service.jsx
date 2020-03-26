@@ -28,13 +28,15 @@ const paragraphs = [
     <ServiceMenu />
 ]
 
-const Service = () => {
-    return ( 
-    <div>
-        <Page title = "Porady serwisowe"
-        paragraphs = { paragraphs }
-        /> </div>
-    );
+export default class Service extends React.Component {
+    render() {
+        return (
+            <div>
+                <Page
+                    title="Porady serwisowe"
+                    paragraphs={paragraphs}
+                />
+            </div>
+        );
+    }
 }
-
-export default Service;

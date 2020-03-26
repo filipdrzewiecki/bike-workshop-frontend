@@ -9,8 +9,8 @@ import ImageIS from '../../../../resources/headset/IS.jpg';
 import ImageZS from '../../../../resources/headset/ZS.jpg';
 import ImageThread from '../../../../resources/headset/Thread.jpg';
 
-import TableHeadsetStandards from './tableHeadsetStandard';
-import TableHeadsetTypes from './tableHeadsetType';
+import TableHeadsetStandards from '../Component/table-headset-standard';
+import TableHeadsetTypes from '../Component/table-headset-type';
 
 const paragraphs = [
     <div>Ze sterami rowerowymi jest tak jak ze zdrowiem - tyle o tym wiemy, ile nas boli. Póki kierownica chodzi bez żadnych zgrzytów, a widelec nie ma żadnego luzu,

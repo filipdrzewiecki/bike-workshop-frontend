@@ -1,7 +1,7 @@
 import '../../../Css/index.css';
 import React from 'react';
 import Page from '../../../Page/PageElements/article.jsx';
-import TableTyreDimensions from './tableTyreToRim'
+import TableTyreDimensions from '../Component/table-tyre-to-rim'
 
 
 const paragraphs = [

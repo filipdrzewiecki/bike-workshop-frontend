@@ -17,7 +17,7 @@ const CompatibilityMenu = () => {
                     <li><Link to={'/compatibility/frame/headset'}>Stery</Link></li>
                     <li><Link to={'/compatibility/frame/seatpost'}>Sztyca</Link></li>
                     <li><Link to={'/compatibility/frame/stem'}>Mostek</Link></li>
-                    <li><Link to={'/compatibility/frame/handlebar'}>Mostek</Link></li>
+                    <li><Link to={'/compatibility/frame/handlebar'}>Kierownica</Link></li>
                 </ul>
             </div>,
     <div className="section-block">

@@ -6,20 +6,21 @@ import { Route, Switch, Link } from "react-router-dom";
 //News
 import Main from '../../Content/News/main.jsx';
 //Service
-import Headset from '../../Content/Service/Articles/headset-article.jsx';
-import ForkReplaceArticle from '../../Content/Service/Articles/fork-article.jsx';
+import Headset from '../../Content/Service/Articles/headset.jsx';
+import ForkReplaceArticle from '../../Content/Service/Articles/fork.jsx';
+import HandlebarService from '../../Content/Service/Articles/handlebar.jsx';
 import Service from '../../Content/Service/service.jsx';
 //Maintenance
 import Maintenance from '../../Content/Maintenance/maintenance.jsx';
 //Compatibility
 import Compatibility from '../../Content/Compatibility/compatibility.jsx';
-import HubCompatibilityArticle from '../../Content/Compatibility/Articles/hub';
-import CassetteArticle from '../../Content/Compatibility/Articles/cassette';
-import BottomBracketArticle from '../../Content/Compatibility/Articles/bottom.bracket-article';
-import HeadsetType from '../../Content/Compatibility/Articles/headset-article.jsx';
-import TyreToRim from '../../Content/Compatibility/Articles/tyres';
-import SpokesArticle from '../../Content/Compatibility/Articles/spokes-article';
-import WheelTypesArticle from '../../Content/Compatibility/Articles/wheel.types-article';
+import HubCompatibilityArticle from '../../Content/Compatibility/Articles/hub.jsx';
+import CassetteArticle from '../../Content/Compatibility/Articles/cassette.jsx';
+import BottomBracketArticle from '../../Content/Compatibility/Articles/bottom-bracket.jsx';
+import HeadsetType from '../../Content/Compatibility/Articles/headset.jsx';
+import TyreToRim from '../../Content/Compatibility/Articles/tyres.jsx';
+import SpokesArticle from '../../Content/Compatibility/Articles/spokes.jsx';
+import WheelTypesArticle from '../../Content/Compatibility/Articles/wheel-types.jsx';
 
 //Products
 import Products from '../../Content/Products/products.jsx';
@@ -61,17 +62,18 @@ const PageBody = () => {
                 <Route path="/service" exact component={Service} />
                 <Route path="/service/frame/headset" exact component={Headset} />
                 <Route path="/service/frame/fork-replace" exact component={ForkReplaceArticle} />
+                <Route path="/service/frame/handlebar" exact component={HandlebarService} />
                 {/* MAINTENANCE */}
                 <Route path="/maintenance" component={Maintenance} />
                 {/* COMPATIBILITY */}
-                <Route path="/compatibility" component={Compatibility} />
-                <Route path="/compatibility/frame/headset" component={HeadsetType} />
-                <Route path="/compatibility/frame/bottom-bracket" component={BottomBracketArticle} />
-                <Route path="/compatibility/wheel/hub" component={HubCompatibilityArticle} />
-                <Route path="/compatibility/wheel/tyre-to-rim" component={TyreToRim} />
-                <Route path="/compatibility/wheel/types" component={WheelTypesArticle} />
-                <Route path="/compatibility/wheel/spokes" component={SpokesArticle} />
-                <Route path="/compatibility/drivetrain/cassette" component={CassetteArticle} />
+                <Route path="/compatibility" exact component={Compatibility} />
+                <Route path="/compatibility/frame/headset" exact component={HeadsetType} />
+                <Route path="/compatibility/frame/bottom-bracket" exact component={BottomBracketArticle} />
+                <Route path="/compatibility/wheel/hub" exact component={HubCompatibilityArticle} />
+                <Route path="/compatibility/wheel/tyre-to-rim" exact component={TyreToRim} />
+                <Route path="/compatibility/wheel/types" exact component={WheelTypesArticle} />
+                <Route path="/compatibility/wheel/spokes" exact component={SpokesArticle} />
+                <Route path="/compatibility/drivetrain/cassette" exact component={CassetteArticle} />
                 {/* PRODUCTS */}
                 <Route path="/products" component={Products} />
                 {/* ABOUT */}
