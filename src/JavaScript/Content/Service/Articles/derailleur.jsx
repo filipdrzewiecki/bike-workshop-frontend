@@ -1,6 +1,6 @@
 import '../../../Css/index.css';
 import React from 'react';
-import Article from '../../../Page/PageElements/article.jsx.js.js';
+import Article from '../../../Page/PageElements/article.jsx';
 
 const paragraphs = [
     <div>
@@ -15,6 +15,8 @@ export default class DerailleurServiceArticle extends React.Component {
                 <Article
                     title="Wymiana widelca"
                     paragraphs={paragraphs}
+                    back={true}
+                    link='/service'
                 />
             </div>
         );

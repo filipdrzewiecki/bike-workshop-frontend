@@ -15,6 +15,8 @@ export default class BottomBracketReplaceArticle extends React.Component {
                 <Article
                     title="Serwis i wymiana wkładu suportu"
                     paragraphs={paragraphs}
+                    back={true}
+                    link='/service'
                 />
             </div>
         );

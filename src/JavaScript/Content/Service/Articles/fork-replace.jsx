@@ -8,12 +8,12 @@ const paragraphs = [
     </div>
 ]
 
-export default class CassetteArticle extends React.Component {
+export default class ForkReplaceArticle extends React.Component {
     render() {
         return (
             <div>
                 <Article
-                    title="Serwis i wymiana kasety"
+                    title="Wymiana widelca"
                     paragraphs={paragraphs}
                     back={true}
                     link='/service'

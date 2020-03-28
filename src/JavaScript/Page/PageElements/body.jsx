@@ -6,10 +6,16 @@ import { Route, Switch, Link } from "react-router-dom";
 //News
 import Main from '../../Content/News/main.jsx';
 //Service
-import Headset from '../../Content/Service/Articles/headset.jsx';
-import ForkReplaceArticle from '../../Content/Service/Articles/fork.jsx';
-import HandlebarService from '../../Content/Service/Articles/handlebar.jsx';
 import Service from '../../Content/Service/service.jsx';
+import BottomBracketService from '../../Content/Service/Articles/bottom-bracket.jsx';
+import HeadsetService from '../../Content/Service/Articles/headset.jsx';
+import ForkReplace from '../../Content/Service/Articles/fork-replace.jsx';
+import HandlebarService from '../../Content/Service/Articles/handlebar.jsx';
+import CassetteService from '../../Content/Service/Articles/cassette.jsx';
+import ChainService from '../../Content/Service/Articles/chain.jsx';
+import CrankService from '../../Content/Service/Articles/crank.jsx';
+import DerailleurService from '../../Content/Service/Articles/derailleur.jsx';
+
 //Maintenance
 import Maintenance from '../../Content/Maintenance/maintenance.jsx';
 //Compatibility
@@ -60,9 +66,14 @@ const PageBody = () => {
                 <Route path="/" exact component={Main} />
                 {/* SERVICE */}
                 <Route path="/service" exact component={Service} />
-                <Route path="/service/frame/headset" exact component={Headset} />
-                <Route path="/service/frame/fork-replace" exact component={ForkReplaceArticle} />
+                <Route path="/service/frame/headset" exact component={HeadsetService} />
+                <Route path="/service/frame/bottom-bracket" exact component={BottomBracketService} />
+                <Route path="/service/frame/fork-replace" exact component={ForkReplace} />
                 <Route path="/service/frame/handlebar" exact component={HandlebarService} />
+                <Route path="/service/drivetrain/cassette" exact component={CassetteService} />
+                <Route path="/service/drivetrain/chain" exact component={ChainService} />
+                <Route path="/service/drivetrain/crank" exact component={CrankService} />
+                <Route path="/service/drivetrain/derailleurs" exact component={DerailleurService} />
                 {/* MAINTENANCE */}
                 <Route path="/maintenance" component={Maintenance} />
                 {/* COMPATIBILITY */}

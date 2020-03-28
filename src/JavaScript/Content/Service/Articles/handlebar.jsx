@@ -15,6 +15,8 @@ export default class HandlebarReplaceArticle extends React.Component {
                 <Article
                     title="Wymiana układu kierownicy"
                     paragraphs={paragraphs}
+                    back={true}
+                    link='/service'
                 />
             </div>
         );

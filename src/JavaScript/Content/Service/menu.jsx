@@ -14,7 +14,7 @@ const ServiceMenu = () => {
                 <h1>Rama <img className="icon" src={FrameIcon} alt="frame"></img></h1>
                 <ul>
                     <li><Link to={'/service/frame/headset'}>Stery</Link></li>
-                    <li><Link to={'/service/frame/buttom-bracket'}>Suport</Link></li>
+                    <li><Link to={'/service/frame/bottom-bracket'}>Suport</Link></li>
                     <li><Link to={'/service/frame/fork-replace'}>Wymiana widelca</Link></li>
                     <li><Link to={'/service/frame/handlebar'}>Wymiana mostka i kierownicy</Link></li>
                 </ul>
@@ -24,7 +24,7 @@ const ServiceMenu = () => {
                 <ul>
                     <li><Link to={'/service/drivetrain/derailleurs'}>Regulacja przerzutek</Link></li>
                     <li><Link to={'/service/drivetrain/chain'}>Wymiana łańcucha</Link></li>
-                    <li><Link to={'/service/drivetrain/casette'}>Wymiana kasety</Link></li>
+                    <li><Link to={'/service/drivetrain/cassette'}>Wymiana kasety</Link></li>
                     <li><Link to={'/service/drivetrain/crank'}>Wymiana korby</Link></li>
                 </ul>
             </div>,
