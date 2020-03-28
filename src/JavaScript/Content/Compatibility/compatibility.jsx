@@ -8,7 +8,7 @@ const paragraphs = [
     <CompatibilityMenu />
 ]
 
-class Compatibility extends React.Component {
+export default class Compatibility extends React.Component {
     render() {
         return (
             <div>
@@ -20,5 +20,3 @@ class Compatibility extends React.Component {
         );
     }
 }
-
-export default Compatibility;

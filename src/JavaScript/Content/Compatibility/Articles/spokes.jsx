@@ -1,18 +1,24 @@
 import '../../../Css/index.css';
 import React from 'react';
-import Page from '../../../Page/PageElements/article.jsx';
+import ArticleBody from '../../../Page/PageElements/article.jsx';
 
-const paragraphs = [<div>dsadsadsa</div>]
+const paragraphs = [
+    <div>
+        Treść artykułu.
+    </div>
+]
 
-const SpokesArticle = () => {
-    return (
-        <div>
-        <Page 
-            title={"Jak dobrać rozmiar opony do obręczy"}
-            paragraphs={paragraphs}
-        />
-        </div>
-    );
+export default class Article extends React.Component {
+    render() {
+        return (
+            <div>
+                <ArticleBody
+                    title="Szprychy"
+                    paragraphs={paragraphs}
+                    back={true}
+                    link='/compatibility'
+                />
+            </div>
+        );
+    }
 }
-
-export default SpokesArticle;

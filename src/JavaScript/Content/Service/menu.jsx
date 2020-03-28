@@ -31,19 +31,19 @@ const ServiceMenu = () => {
             <div className="section-block">
                 <h1>Amortyzacja<img className="icon" src={ForkIcon} alt="suspension"></img></h1>
                 <ul>
-                    <li><Link to={'/service/suspension/fork/travel-boost'}>Zwiększenie skoku widelca</Link></li>
-                    <li><Link to={'/service/suspension/fork/basic'}>Regulacja amortyzatora</Link></li>
-                    <li><Link to={'/service/suspension/fork/service'}>Serwis amortyzatora</Link></li>
-                    <li><Link to={'/service/suspension/damper/service'}>Serwis dampera</Link></li>
+                    <li><Link to={'/service/suspension/travel-extension'}>Zwiększenie skoku widelca</Link></li>
+                    <li><Link to={'/service/suspension/adjustment'}>Regulacja zawieszenia</Link></li>
+                    <li><Link to={'/service/suspension/fork'}>Serwis amortyzatora</Link></li>
+                    <li><Link to={'/service/suspension/damper'}>Serwis dampera</Link></li>
                 </ul>
             </div>,
             <div className="section-block">
                 <h1>Koła <img className="icon" src={WheelIcon} alt="frame"></img></h1>
                 <ul>
-                    <li><Link to={'/service/wheels/freehub'}>Serwis bębenka</Link></li>
-                    <li><Link to={'/service/wheels/truing'}>Centrowanie</Link></li>
-                    <li><Link to={'/service/wheels/building'}>Zaplot koła od zera</Link></li>
-                    <li><Link to={'/service/wheels/spoke=replace'}>Wymiana szprychy</Link></li>
+                    <li><Link to={'/service/wheel/freehub'}>Serwis bębenka</Link></li>
+                    <li><Link to={'/service/wheel/truing'}>Centrowanie</Link></li>
+                    <li><Link to={'/service/wheel/building'}>Zaplot koła od zera</Link></li>
+                    <li><Link to={'/service/wheel/spokes'}>Wymiana szprychy</Link></li>
                 </ul>
             </div>
         </div>

@@ -15,6 +15,14 @@ import CassetteService from '../../Content/Service/Articles/cassette.jsx';
 import ChainService from '../../Content/Service/Articles/chain.jsx';
 import CrankService from '../../Content/Service/Articles/crank.jsx';
 import DerailleurService from '../../Content/Service/Articles/derailleur.jsx';
+import ForkTravel from '../../Content/Service/Articles/fork-travel.jsx';
+import ForkService from '../../Content/Service/Articles/fork.jsx';
+import DamperService from '../../Content/Service/Articles/damper.jsx';
+import SuspensionAdjustment from '../../Content/Service/Articles/suspension-adjustment.jsx';
+import WheelTruing from '../../Content/Service/Articles/wheel-truing.jsx';
+import WheelBuild from '../../Content/Service/Articles/wheel-build.jsx';
+import SpokeReplace from '../../Content/Service/Articles/spoke-replace.jsx';
+import FreeHubService from '../../Content/Service/Articles/freehub.jsx';
 
 //Maintenance
 import Maintenance from '../../Content/Maintenance/maintenance.jsx';
@@ -74,6 +82,14 @@ const PageBody = () => {
                 <Route path="/service/drivetrain/chain" exact component={ChainService} />
                 <Route path="/service/drivetrain/crank" exact component={CrankService} />
                 <Route path="/service/drivetrain/derailleurs" exact component={DerailleurService} />
+                <Route path="/service/suspension/fork" exact component={ForkService} />
+                <Route path="/service/suspension/damper" exact component={DamperService} />
+                <Route path="/service/suspension/travel-extension" exact component={ForkTravel} />
+                <Route path="/service/suspension/adjustment" exact component={SuspensionAdjustment} />
+                <Route path="/service/wheel/truing" exact component={WheelTruing} />
+                <Route path="/service/wheel/building" exact component={WheelBuild} />
+                <Route path="/service/wheel/freehub" exact component={FreeHubService} />
+                <Route path="/service/wheel/spokes" exact component={SpokeReplace} />
                 {/* MAINTENANCE */}
                 <Route path="/maintenance" component={Maintenance} />
                 {/* COMPATIBILITY */}

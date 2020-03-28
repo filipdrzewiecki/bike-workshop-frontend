@@ -44,9 +44,9 @@ export default class ForkReplaceArticle extends React.Component {
             <div>
                 <Article
                     title="Wymiana sterów"
+                    paragraphs={paragraphs}
                     back={true}
                     link='/service'
-                    paragraphs={paragraphs}
                 />
             </div>
         );

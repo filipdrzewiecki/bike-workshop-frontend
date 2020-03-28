@@ -7,6 +7,26 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #282c34;
+    text-decoration: none;
+}
+
+a:active {
+    color: #282c34;
+    text-decoration: none;
+}
+
 .logo {
     position: relative;
     background-size: cover;
