@@ -2,6 +2,7 @@ import '../../Css/index.css';
 import React from 'react';
 import SideMenu from './sideMenu.jsx';
 import { Route, Switch, Link } from "react-router-dom";
+import VotingPoll from './poll'
 
 //News
 import Main from '../../Content/News/main.jsx';
@@ -69,13 +70,7 @@ const LeftMenu = () => {
 
 const RightMenu = () => {
     return (
-        <SideMenu
-            paragraphs={[
-                <Link to={'/service/headset'}>BikeAdvice App</Link>,
-                <Link to={'/service/headset'}>Sklepy w twojej okolicy</Link>,
-                <Link to={'/service/headset'}>Lokalne wyścigi</Link>
-            ]}
-        />
+        <VotingPoll/>
     );
 }
 
