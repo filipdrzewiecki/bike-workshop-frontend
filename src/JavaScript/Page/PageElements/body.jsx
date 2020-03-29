@@ -24,9 +24,16 @@ import WheelTruing from '../../Content/Service/Articles/wheel-truing.jsx';
 import WheelBuild from '../../Content/Service/Articles/wheel-build.jsx';
 import SpokeReplace from '../../Content/Service/Articles/spoke-replace.jsx';
 import FreeHubService from '../../Content/Service/Articles/freehub.jsx';
-
 //Maintenance
 import Maintenance from '../../Content/Maintenance/maintenance.jsx';
+import BicycleWash from '../../Content/Maintenance/Articles/bicycle-wash.jsx';
+import DrivetrainWash from '../../Content/Maintenance/Articles/drivetrain-wash.jsx';
+import DrivetrainWorn from '../../Content/Maintenance/Articles/drivetrain-worn.jsx';
+import Play from '../../Content/Maintenance/Articles/play.jsx';
+import SuspensionPreassure from '../../Content/Maintenance/Articles/suspension-preassure.jsx';
+import TyrePreassure from '../../Content/Maintenance/Articles/tyre-preassure.jsx';
+import TyreWorn from '../../Content/Maintenance/Articles/tyre-worn.jsx';
+import WheelWash from '../../Content/Maintenance/Articles/wheel-wash.jsx';
 //Compatibility
 import Compatibility from '../../Content/Compatibility/compatibility.jsx';
 import HubCompatibilityArticle from '../../Content/Compatibility/Articles/hub.jsx';
@@ -49,10 +56,23 @@ import DamperCompatibility from '../../Content/Compatibility/Articles/damper.jsx
 import TubelessTechnology from '../../Content/Compatibility/Articles/tubeless.jsx';
 import HollowetechTechnology from '../../Content/Compatibility/Articles/hollowtech.jsx';
 import SteeringTubeCompatibility from '../../Content/Compatibility/Articles/steering-tube.jsx';
-
-
 //Products
 import Products from '../../Content/Products/products.jsx';
+import BasicTools from '../../Content/Products/Articles/basic-tools.jsx';
+import ToolsBrands from '../../Content/Products/Articles/brands.jsx';
+import Carrier from '../../Content/Products/Articles/carrier.jsx';
+import ClothesCasual from '../../Content/Products/Articles/clothes-casual.jsx';
+import ClothesEnduro from '../../Content/Products/Articles/clothes-enduro.jsx';
+import ClothesLycra from '../../Content/Products/Articles/clothes-lycra.jsx';
+import DrivetrainBrands from '../../Content/Products/Articles/drivetrain-brands.jsx';
+import Helmet from '../../Content/Products/Articles/helmet.jsx';
+import HomeWorkshop from '../../Content/Products/Articles/home-workshop.jsx';
+import Lights from '../../Content/Products/Articles/lights.jsx';
+import Multitool from '../../Content/Products/Articles/multitool.jsx';
+import ClothingPads from '../../Content/Products/Articles/pads.jsx';
+import Shoes from '../../Content/Products/Articles/shoes.jsx';
+import SmallBags from '../../Content/Products/Articles/small-bags.jsx';
+import TravelBags from '../../Content/Products/Articles/travelling-bags.jsx';
 //About
 import About from '../../Content/About/about.jsx';
 
@@ -100,7 +120,15 @@ const PageBody = () => {
                 <Route path="/service/wheel/freehub" exact component={FreeHubService} />
                 <Route path="/service/wheel/spokes" exact component={SpokeReplace} />
                 {/* MAINTENANCE */}
-                <Route path="/maintenance" component={Maintenance} />
+                <Route path="/maintenance" exact component={Maintenance} />
+                <Route path="/maintenance/adjustments/play" exact component={Play} />
+                <Route path="/maintenance/adjustments/tyre-preassure" exact component={TyrePreassure} />
+                <Route path="/maintenance/adjustments/suspension-preassure" exact component={SuspensionPreassure} />
+                <Route path="/maintenance/adjustments/drivetrain" exact component={DrivetrainWorn} />
+                <Route path="/maintenance/adjustments/tyres" exact component={TyreWorn} />
+                <Route path="/maintenance/wash/bicycle" exact component={BicycleWash} />
+                <Route path="/maintenance/wash/drivetrain" exact component={DrivetrainWash} />
+                <Route path="/maintenance/wash/wheel" exact component={WheelWash} />
                 {/* COMPATIBILITY */}
                 <Route path="/compatibility" exact component={Compatibility} />
                 <Route path="/compatibility/frame/headset" exact component={HeadsetType} />
@@ -123,9 +151,23 @@ const PageBody = () => {
                 <Route path="/compatibility/wheel/spokes" exact component={SpokesArticle} />
                 <Route path="/compatibility/wheel/rim" exact component={RimCompatibility} />
                 <Route path="/compatibility/wheel/technologies/tubeless" exact component={TubelessTechnology} />
-
                 {/* PRODUCTS */}
-                <Route path="/products" component={Products} />
+                <Route path="/products" exact component={Products} />
+                <Route path="/products/tools/basic-tools" exact component={BasicTools} />
+                <Route path="/products/tools/brands" exact component={ToolsBrands} />
+                <Route path="/products/tools/house-workshop" exact component={HomeWorkshop} />
+                <Route path="/products/accessories/multitool" exact component={Multitool} />
+                <Route path="/products/accessories/lights" exact component={Lights} />
+                <Route path="/products/accessories/travel-bag" exact component={TravelBags} />
+                <Route path="/products/accessories/small-bag" exact component={SmallBags} />
+                <Route path="/products/accessories/carrier" exact component={Carrier} />
+                <Route path="/products/clothing/shoes" exact component={Shoes} />
+                <Route path="/products/clothing/pads" exact component={ClothingPads} />
+                <Route path="/products/clothing/helmet" exact component={Helmet} />
+                <Route path="/products/clothing/lycra" exact component={ClothesLycra} />
+                <Route path="/products/clothing/casual" exact component={ClothesCasual} />
+                <Route path="/products/clothing/enduro" exact component={ClothesEnduro} />
+                <Route path="/products/parts/brands" exact component={DrivetrainBrands} />
                 {/* ABOUT */}
                 <Route path="/about" component={About} />
             </Switch>

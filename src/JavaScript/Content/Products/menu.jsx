@@ -14,8 +14,7 @@ const ProductsMenu = () => {
             <div className="section-block-long">
                 <h1>Narzędzia <img className="icon" src={WrenchIcon} alt="wrench"></img></h1>
                 <ul>
-                    <li><Link to={'/products/tools/basics'}>Zestaw podstawowych narzędzi do codziennych napraw</Link></li>
-                    <li><Link to={'/products/tools/truing-stand'}>Centrownica</Link></li>
+                    <li><Link to={'/products/tools/basic-tools'}>Zestaw podstawowych narzędzi do codziennych napraw</Link></li>
                     <li><Link to={'/products/tools/brands'}>Dobre i złe marki</Link></li>
                     <li><Link to={'/products/tools/house-workshop'}>Warsztat domowy</Link></li>
                 </ul>
@@ -24,7 +23,7 @@ const ProductsMenu = () => {
                 <h1>Akcesoria <img className="icon" src={AccesoriesICon} alt="accessories"></img></h1>
                 <ul>
                     <li><Link to={'/products/accessories/multitool'}>Multitool</Link></li>
-                    <li><Link to={'/products/accessories/light'}>Lampki</Link></li>
+                    <li><Link to={'/products/accessories/lights'}>Lampki</Link></li>
                     <li><Link to={'/products/accessories/travel-bag'}>Sakwy i torby podróżne</Link></li>
                     <li><Link to={'/products/accessories/small-bag'}>Małe torby</Link></li>
                     <li><Link to={'/products/accessories/carrier'}>Bagażniki</Link></li>
