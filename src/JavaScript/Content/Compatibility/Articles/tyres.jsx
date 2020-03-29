@@ -66,8 +66,7 @@ export default class Article extends React.Component {
               <ArticleBody
                   title="Jak dobrać rozmiar opony do obręczychy"
                   paragraphs={paragraphs}
-                  back={true}
-                  link='/compatibility'
+                  backButtonLink='/compatibility'
               />
           </div>
       );

@@ -35,6 +35,7 @@ export default class Service extends React.Component {
                 <Page
                     title="Porady serwisowe"
                     paragraphs={paragraphs}
+                    isBackButton={false}
                 />
             </div>
         );

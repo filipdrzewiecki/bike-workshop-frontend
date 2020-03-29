@@ -1,6 +1,6 @@
 import '../../../Css/index.css';
 import React from 'react';
-import Page from '../../../Page/PageElements/article.jsx';
+import ArticleBody from '../../../Page/PageElements/article.jsx';
 
 import ContentTile from '../../../Page/ContentComponents/contentTile';
 
@@ -66,17 +66,16 @@ const paragraphs = [
     </div>}/>
 ]
 
-const BottomBracketArticle = () => {
-    return (
-        <div>
-        <Page 
-
-            title={"Suport"}
-            paragraphs={paragraphs}
-        />
-        </div>
-    );
+export default class Article extends React.Component {
+  render() {
+      return (
+          <div>
+              <ArticleBody
+                  title="Wkład suportu"
+                  paragraphs={paragraphs}
+                  backButtonLink='/compatibility'
+              />
+          </div>
+      );
+  }
 }
- 
-
-export default BottomBracketArticle;

@@ -15,8 +15,7 @@ export default class Article extends React.Component {
                 <ArticleBody
                     title="Serwis dampera"
                     paragraphs={paragraphs}
-                    back={true}
-                    link='/service'
+                    backButtonLink='/service'
                 />
             </div>
         );

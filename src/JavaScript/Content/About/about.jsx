@@ -40,6 +40,7 @@ export default class Compatibility extends React.Component {
                 <Page
                     title="My, pedalarze"
                     paragraphs={paragraphs}
+                    isBackButton={false}
                 />
             </div>
         );

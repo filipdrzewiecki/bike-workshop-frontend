@@ -15,8 +15,7 @@ export default class DerailleurServiceArticle extends React.Component {
                 <Article
                     title="Wymiana widelca"
                     paragraphs={paragraphs}
-                    back={true}
-                    link='/service'
+                    backButtonLink='/service'
                 />
             </div>
         );

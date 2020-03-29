@@ -32,6 +32,7 @@ const Main = () => {
         <Page 
             title="Siema pedalarzu!"
             paragraphs={page}
+            isBackButton={false}
         />
         </div>
     );

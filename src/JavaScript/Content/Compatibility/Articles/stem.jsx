@@ -13,7 +13,8 @@ export default class Article extends React.Component {
         return (
             <div>
                 <ArticleBody
-                    title="Typy kół"
+                    title="Mostek"
+                    secondaryTitle="czyli wspornik kierownicy bez tajemnic"
                     paragraphs={paragraphs}
                     backButtonLink='/compatibility'
                 />

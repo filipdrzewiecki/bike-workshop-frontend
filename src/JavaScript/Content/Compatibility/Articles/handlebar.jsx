@@ -13,10 +13,9 @@ export default class Article extends React.Component {
         return (
             <div>
                 <ArticleBody
-                    title="Obręcz koła"
+                    title="Kierownica"
                     paragraphs={paragraphs}
-                    back={true}
-                    link='/compatibility'
+                    backButtonLink='/compatibility'
                 />
             </div>
         );

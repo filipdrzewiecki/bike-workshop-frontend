@@ -1,6 +1,6 @@
 import '../../../Css/index.css';
 import React from 'react';
-import Page from '../../../Page/PageElements/article.jsx';
+import ArticleBody from '../../../Page/PageElements/article.jsx';
 
 import ContentTile from '../../../Page/ContentComponents/contentTile';
 
@@ -66,20 +66,16 @@ const paragraphs = [
     </div>
 ]
 
-const HubCompatibilityArticle = () => {
-    return (
-        <div>
-        <Page 
-            menu1="serws"
-            menu2="serws"
-            menu3="serwis"
-
-            title={"Kompendium wiedzy o kasetach rowerowych"}
-            paragraphs={paragraphs}
-        />
-        </div>
-    );
+export default class Article extends React.Component {
+  render() {
+      return (
+          <div>
+              <ArticleBody
+                  title="Piasta"
+                  paragraphs={paragraphs}
+                  backButtonLink='/compatibility'
+              />
+          </div>
+      );
+  }
 }
-
-
-export default HubCompatibilityArticle;

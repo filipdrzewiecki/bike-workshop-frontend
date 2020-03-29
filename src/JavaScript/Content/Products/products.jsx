@@ -20,6 +20,7 @@ export default class Compatibility extends React.Component {
                 <Page
                     title="Recenzje i opinie o produktach rowerowych"
                     paragraphs={paragraphs}
+                    isBackButton={false}
                 />
             </div>
         );

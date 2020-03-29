@@ -15,8 +15,7 @@ export default class CassetteArticle extends React.Component {
                 <Article
                     title="Serwis i wymiana kasety"
                     paragraphs={paragraphs}
-                    back={true}
-                    link='/service'
+                    backButtonLink='/service'
                 />
             </div>
         );

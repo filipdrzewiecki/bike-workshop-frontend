@@ -1,6 +1,6 @@
 import '../../../Css/index.css';
 import React from 'react';
-import Page from '../../../Page/PageElements/article.jsx';
+import ArticleBody from '../../../Page/PageElements/article.jsx';
 import ContentTile from '../../../Page/ContentComponents/contentTile';
 
 import TableCassetteDimensions from '../Component/table-cassette-shimano-dimensions'
@@ -52,16 +52,16 @@ const paragraphs = [
     </div>
 ]
 
-const CassetteArticle = () => {
-    return (
-        <div>
-        <Page 
-            title={"Kompendium wiedzy o kasetach rowerowych"}
-            paragraphs={paragraphs}
-        />
-        </div>
-    );
+export default class Article extends React.Component {
+  render() {
+      return (
+          <div>
+              <ArticleBody
+                  title="Kaseta"
+                  paragraphs={paragraphs}
+                  backButtonLink='/compatibility'
+              />
+          </div>
+      );
+  }
 }
- 
-
-export default CassetteArticle;

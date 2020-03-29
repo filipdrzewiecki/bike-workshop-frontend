@@ -15,8 +15,7 @@ export default class Article extends React.Component {
                 <ArticleBody
                     title="Szprychy"
                     paragraphs={paragraphs}
-                    back={true}
-                    link='/compatibility'
+                    backButtonLink='/compatibility'
                 />
             </div>
         );

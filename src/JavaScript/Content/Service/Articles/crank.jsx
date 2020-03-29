@@ -15,8 +15,7 @@ export default class CrankArticle extends React.Component {
                 <Article
                     title="Serwis i wymiana korby"
                     paragraphs={paragraphs}
-                    back={true}
-                    link='/service'
+                    backButtonLink='/service'
                 />
             </div>
         );

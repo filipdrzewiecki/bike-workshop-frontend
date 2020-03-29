@@ -35,6 +35,20 @@ import HeadsetType from '../../Content/Compatibility/Articles/headset.jsx';
 import TyreToRim from '../../Content/Compatibility/Articles/tyres.jsx';
 import SpokesArticle from '../../Content/Compatibility/Articles/spokes.jsx';
 import WheelTypesArticle from '../../Content/Compatibility/Articles/wheel-types.jsx';
+import RimCompatibility from '../../Content/Compatibility/Articles/rim.jsx';
+import SeatpostCompatibility from '../../Content/Compatibility/Articles/seatpost.jsx';
+import StemCompatibility from '../../Content/Compatibility/Articles/stem.jsx';
+import HandlebarCompatibility from '../../Content/Compatibility/Articles/handlebar.jsx';
+import RearDerailleurCompatibility from '../../Content/Compatibility/Articles/rear-derailleur.jsx';
+import FrontDerailleurCompatiblity from '../../Content/Compatibility/Articles/front-derailleur.jsx';
+import CrankCompatiblity from '../../Content/Compatibility/Articles/crank.jsx';
+import SuspensionDisciplines from '../../Content/Compatibility/Articles/suspension-disciplines.jsx';
+import ForkTypes from '../../Content/Compatibility/Articles/fork-types.jsx';
+import DamperCompatibility from '../../Content/Compatibility/Articles/damper.jsx';
+import TubelessTechnology from '../../Content/Compatibility/Articles/tubeless.jsx';
+import HollowetechTechnology from '../../Content/Compatibility/Articles/hollowtech.jsx';
+import SteeringTubeCompatibility from '../../Content/Compatibility/Articles/steering-tube.jsx';
+
 
 //Products
 import Products from '../../Content/Products/products.jsx';
@@ -96,11 +110,25 @@ const PageBody = () => {
                 <Route path="/compatibility" exact component={Compatibility} />
                 <Route path="/compatibility/frame/headset" exact component={HeadsetType} />
                 <Route path="/compatibility/frame/bottom-bracket" exact component={BottomBracketArticle} />
+                <Route path="/compatibility/frame/seatpost" exact component={SeatpostCompatibility} />
+                <Route path="/compatibility/frame/stem" exact component={StemCompatibility} />
+                <Route path="/compatibility/frame/handlebar" exact component={HandlebarCompatibility} />
+                <Route path="/compatibility/frame/technologies/hollowtech" exact component={HollowetechTechnology} />
+                <Route path="/compatibility/drivetrain/cassette" exact component={CassetteArticle} />
+                <Route path="/compatibility/drivetrain/rear-derailleur" exact component={RearDerailleurCompatibility} />
+                <Route path="/compatibility/drivetrain/front-derailleur" exact component={FrontDerailleurCompatiblity} />
+                <Route path="/compatibility/drivetrain/crank" exact component={CrankCompatiblity} />
+                <Route path="/compatibility/suspension/disciplines" exact component={SuspensionDisciplines} />
+                <Route path="/compatibility/suspension/fork-types" exact component={ForkTypes} />
+                <Route path="/compatibility/suspension/steering-tube" exact component={SteeringTubeCompatibility} />
+                <Route path="/compatibility/suspension/damper" exact component={DamperCompatibility} />
                 <Route path="/compatibility/wheel/hub" exact component={HubCompatibilityArticle} />
                 <Route path="/compatibility/wheel/tyre-to-rim" exact component={TyreToRim} />
                 <Route path="/compatibility/wheel/types" exact component={WheelTypesArticle} />
                 <Route path="/compatibility/wheel/spokes" exact component={SpokesArticle} />
-                <Route path="/compatibility/drivetrain/cassette" exact component={CassetteArticle} />
+                <Route path="/compatibility/wheel/rim" exact component={RimCompatibility} />
+                <Route path="/compatibility/wheel/technologies/tubeless" exact component={TubelessTechnology} />
+
                 {/* PRODUCTS */}
                 <Route path="/products" component={Products} />
                 {/* ABOUT */}

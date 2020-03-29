@@ -15,8 +15,7 @@ export default class ForkArticle extends React.Component {
                 <Article
                     title="Serwis widelca"
                     paragraphs={paragraphs}
-                    back={true}
-                    link='/service'
+                    backButtonLink='/service'
                 />
             </div>
         );

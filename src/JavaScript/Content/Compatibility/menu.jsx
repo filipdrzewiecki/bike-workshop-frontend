@@ -18,26 +18,25 @@ const CompatibilityMenu = () => {
                     <li><Link to={'/compatibility/frame/seatpost'}>Sztyca</Link></li>
                     <li><Link to={'/compatibility/frame/stem'}>Mostek</Link></li>
                     <li><Link to={'/compatibility/frame/handlebar'}>Kierownica</Link></li>
+                    <li><Link to={'/compatibility/frame/technologies/hollowtech'}>[Technologia] Hollowtech</Link></li>
                 </ul>
             </div>,
     <div className="section-block">
                 <h1>Napęd <img className="icon" src={DriveIcon} alt="drivetrain"></img></h1>
                 <ul>
                     <li><Link to={'/compatibility/drivetrain/cassette'}>Kaseta</Link></li>
-                    <li><Link to={'/compatibility/drivetrain/rearDerailleur'}>Przerzutka tylna</Link></li>
-                    <li><Link to={'/compatibility/drivetrain/frontDerailleur'}>Przerzutka przednia</Link></li>
+                    <li><Link to={'/compatibility/drivetrain/rear-derailleur'}>Przerzutka tylna</Link></li>
+                    <li><Link to={'/compatibility/drivetrain/front-derailleur'}>Przerzutka przednia</Link></li>
                     <li><Link to={'/compatibility/drivetrain/crank'}>Korba</Link></li>
                 </ul>
             </div>,
     <div className="section-block">
                 <h1>Amortyzator <img className="icon" src={ForkIcon} alt="frame"></img></h1>
                 <ul>
-                    <li><Link to={'/service/suspension/fork/disciplines'}>Dyscypliny amortyzatorów</Link></li>
-                    <li><Link to={'/service/suspension/fork/types'}>Typy amortyzatorów</Link></li>
-                    <li><Link to={'/service/suspension/fork/tube'}>Rura sterowa</Link></li>
-                    <li><Link to={'/service/suspension/damper'}>Dampery</Link></li>
-                    <li><Link to={'/service/suspension/technologies/cashima'}>[Technologia] Cashima coat</Link></li>
-
+                    <li><Link to={'/compatibility/suspension/disciplines'}>Dyscypliny amortyzatorów</Link></li>
+                    <li><Link to={'/compatibility/suspension/fork-types'}>Typy amortyzatorów</Link></li>
+                    <li><Link to={'/compatibility/suspension/steering-tube'}>Rura sterowa</Link></li>
+                    <li><Link to={'/compatibility/suspension/damper'}>Dampery</Link></li>
                 </ul>
             </div>,
     <div className="section-block">

@@ -13,7 +13,7 @@ export default class Article extends React.Component {
         return (
             <div>
                 <ArticleBody
-                    title="Typy kół"
+                    title="Korba"
                     paragraphs={paragraphs}
                     backButtonLink='/compatibility'
                 />

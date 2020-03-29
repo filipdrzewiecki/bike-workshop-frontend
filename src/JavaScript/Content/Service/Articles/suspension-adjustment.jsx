@@ -15,8 +15,7 @@ export default class ChainArticle extends React.Component {
                 <Article
                     title="Regulacja amortyzacji"
                     paragraphs={paragraphs}
-                    back={true}
-                    link='/service'
+                    backButtonLink='/service'
                 />
             </div>
         );

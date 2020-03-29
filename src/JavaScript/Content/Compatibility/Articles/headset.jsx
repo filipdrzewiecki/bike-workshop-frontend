@@ -1,6 +1,6 @@
 import '../../../Css/index.css';
 import React from 'react';
-import Page from '../../../Page/PageElements/article.jsx';
+import ArticleBody from '../../../Page/PageElements/article.jsx';
 
 import ContentTile from '../../../Page/ContentComponents/contentTile';
 
@@ -71,16 +71,16 @@ const paragraphs = [
     <div></div>,
 ]
 
-const HeadsetType = () => {
-    return (
-        <div>
-        <Page 
-            title={"Stery - rodzaje i charakterystyka"}
-            paragraphs={paragraphs}
-        />
-        </div>
-    );
+export default class Article extends React.Component {
+  render() {
+      return (
+          <div>
+              <ArticleBody
+                  title="Stery - rodzaje i charakterystyka"
+                  paragraphs={paragraphs}
+                  backButtonLink='/compatibility'
+              />
+          </div>
+      );
+  }
 }
- 
-
-export default HeadsetType;
