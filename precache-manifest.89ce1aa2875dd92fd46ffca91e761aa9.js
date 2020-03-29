@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d55fe2a2fe0b84ade02c149645e66790",
+    "revision": "69067e9e59ea4181130a0adef9ea848f",
     "url": "/bike-workshop-frontend/index.html"
   },
   {
-    "revision": "43da6653cc8ea41881bc",
+    "revision": "7f0995e423a611704fb9",
     "url": "/bike-workshop-frontend/static/css/main.f472f9d3.chunk.css"
   },
   {
-    "revision": "9cc7a5a6aed4666fed7e",
-    "url": "/bike-workshop-frontend/static/js/2.777d6ab3.chunk.js"
+    "revision": "273aaf655ed96e34ef6e",
+    "url": "/bike-workshop-frontend/static/js/2.40fa08dc.chunk.js"
   },
   {
-    "revision": "43da6653cc8ea41881bc",
-    "url": "/bike-workshop-frontend/static/js/main.88af3bd0.chunk.js"
+    "revision": "7f0995e423a611704fb9",
+    "url": "/bike-workshop-frontend/static/js/main.50de3a69.chunk.js"
   },
   {
     "revision": "030b8f1d2c26b1fa71aa",
