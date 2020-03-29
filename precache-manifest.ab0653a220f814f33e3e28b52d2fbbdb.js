@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b627340892ab4b23c026c703224fa94",
+    "revision": "d55fe2a2fe0b84ade02c149645e66790",
     "url": "/bike-workshop-frontend/index.html"
   },
   {
-    "revision": "81d331380ecd3cae9652",
-    "url": "/bike-workshop-frontend/static/css/main.e9b54c16.chunk.css"
+    "revision": "43da6653cc8ea41881bc",
+    "url": "/bike-workshop-frontend/static/css/main.f472f9d3.chunk.css"
   },
   {
-    "revision": "787288b5b69a818c0c35",
-    "url": "/bike-workshop-frontend/static/js/2.46ec8d4d.chunk.js"
+    "revision": "9cc7a5a6aed4666fed7e",
+    "url": "/bike-workshop-frontend/static/js/2.777d6ab3.chunk.js"
   },
   {
-    "revision": "81d331380ecd3cae9652",
-    "url": "/bike-workshop-frontend/static/js/main.a5f83ea7.chunk.js"
+    "revision": "43da6653cc8ea41881bc",
+    "url": "/bike-workshop-frontend/static/js/main.88af3bd0.chunk.js"
   },
   {
-    "revision": "e1e8389bfb8036cd40a8",
-    "url": "/bike-workshop-frontend/static/js/runtime-main.8d6ced80.js"
+    "revision": "030b8f1d2c26b1fa71aa",
+    "url": "/bike-workshop-frontend/static/js/runtime-main.a400c64f.js"
   },
   {
     "revision": "f90acdbb677cbda753a4f5716c012bca",
@@ -56,12 +56,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bike-workshop-frontend/static/media/ZS.f0115a1d.jpg"
   },
   {
+    "revision": "34f0e8578fda74b459333d439d19a0fa",
+    "url": "/bike-workshop-frontend/static/media/cogwheel.34f0e857.png"
+  },
+  {
     "revision": "8a553af53418b5d5ef1f30243906004f",
     "url": "/bike-workshop-frontend/static/media/companyLogo.8a553af5.png"
   },
   {
     "revision": "c8e608328b90498fc4f765d72018ca77",
     "url": "/bike-workshop-frontend/static/media/drivetrain.c8e60832.png"
+  },
+  {
+    "revision": "5bf03ab7450fd0972442e7cc2de5fb27",
+    "url": "/bike-workshop-frontend/static/media/fil.5bf03ab7.png"
   },
   {
     "revision": "408c5607bd1223c77379aa711367b657",
@@ -74,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8aa5552a8dffb4bf344707b1d1274320",
     "url": "/bike-workshop-frontend/static/media/integratedThreaded.8aa5552a.jpg"
+  },
+  {
+    "revision": "4ba70d1071562aab7bf976238b8a7a89",
+    "url": "/bike-workshop-frontend/static/media/luke.4ba70d10.png"
   },
   {
     "revision": "5a60beeb01992b0f4b81b10950f4a1fd",
@@ -90,5 +102,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "be36551f8503be8532b51b1a2ea39b4d",
     "url": "/bike-workshop-frontend/static/media/wheel.be36551f.png"
+  },
+  {
+    "revision": "c0197f87888c0f105c0498a06baa6bac",
+    "url": "/bike-workshop-frontend/static/media/wrench.c0197f87.png"
   }
 ]);
