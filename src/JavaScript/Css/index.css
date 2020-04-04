@@ -99,6 +99,14 @@ a:active {
     height: 120px;
 }
 
+.photo-horizontal {
+    height: 120px;
+}
+
+.photo-medium {
+    height: 180px;
+}
+
 .tools {
     width: 93%;
     height: 100%;
