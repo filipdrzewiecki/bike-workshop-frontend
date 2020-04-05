@@ -20,7 +20,7 @@ const Navbar = () => {
                     <NavbarButton adress="/maintenance" buttonName="Konserwacja" />
                     <NavbarButton adress="/compatibility" buttonName="Kompatybilność" />
                     <NavbarButton adress="/products" buttonName="Polecane produkty" />
-                    <NavbarButton adress="/about" buttonName="O nas" />
+                    <NavbarButton adress="/about" buttonName="Kontakt" />
                 </div>
             </div>
         </div>
