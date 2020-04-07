@@ -1,6 +1,7 @@
 import '../../../Css/index.css';
 import React from 'react';
 import Section from '../../../Page/PageElements/section.jsx';
+import WarningBox from '../../../Page/ContentComponents/warning.jsx';
 import ArticleBody from '../../../Page/PageElements/article.jsx';
 
 const section1 = [
@@ -10,10 +11,10 @@ const section1 = [
         domowych, aby w żaden sposób go nie uszkodzić. Zdarza się przecież, że niejeden domorsły mechanik po urządzeniu takiego domowego SPA, po tygodniu
         zachodził w głowę dlaczego wszystko tak hałasuje, ma luzy i działa dużo gorzej niż wcześniej.
     </div>,
-    <div>
-        UWAGA: artykuł ten skupia się na myciu roweru jako całości - jeżeli chcesz wiedzieć jak prawidłowo umyć koła lub napęd, zapraszam do przeznaczonych tym
-        zagadnieniom odrębnym artykułów.
-    </div>
+    <WarningBox
+    warningText="UWAGA: artykuł ten skupia się na myciu roweru jako całości - jeżeli chcesz wiedzieć jak prawidłowo umyć koła lub napęd, zapraszam do przeznaczonych tym
+    zagadnieniom odrębnym artykułów."
+    />
 ]
 
 const section2 = [
