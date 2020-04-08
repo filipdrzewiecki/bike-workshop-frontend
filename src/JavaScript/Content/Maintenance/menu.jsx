@@ -23,8 +23,8 @@ const MaintenanceMenu = () => {
                 <h1>Czyszczenie i smarowanie <img className="icon" src={SpongeIcon} alt="sponge"></img></h1>
                 <ul>
                     <li><Link to={'/maintenance/wash/bicycle'}>Jak myć rower</Link></li>
-                    <li><Link to={'/maintenance/wash/drivetrain'}>Czeszczenie i smarowanie łańcucha</Link></li>
-                    <li><Link to={'/maintenance/wash/wheel'}>Czyszczenie kół</Link></li>
+                    <li><Link to={'/maintenance/wash/drivetrain'}>Czeszczenie napędu</Link></li>
+                    <li><Link to={'/maintenance/wash/chain-lubricating'}>Smarowanie łańcucha</Link></li>
                 </ul>
             </div>
         </div>

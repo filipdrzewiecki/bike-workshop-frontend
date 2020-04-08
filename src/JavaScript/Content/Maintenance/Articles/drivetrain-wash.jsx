@@ -2,22 +2,39 @@ import '../../../Css/index.css';
 import React from 'react';
 import Section from '../../../Page/PageElements/section.jsx';
 import ArticleBody from '../../../Page/PageElements/article.jsx';
+import ChainCleaningMachine from '../../../../resources/drivetrain/chainCleaningMachine.PNG';
+import Fenwicks from '../../../../resources/drivetrain/fenwicks.PNG';
+
+
 
 const section1 = [
     <div>
-        Napęd to zdecydowanie jedna z najtrudniejszych do wyczyszczenia części rowerów. Jest to zajęcie niewdzięczne, czasochłonne, i wielokrotnie po prostu niewarte zachodu. 
+        Napęd to zdecydowanie jedna z najtrudniejszych do wyczyszczenia części rowerów. Jest to zajęcie niewdzięczne, czasochłonne, i wielokrotnie po prostu niewarte zachodu.
         Zawsze miej na uwadze, że jeżeli zabierzesz się do tego nieprawidłowo i zaczniesz używać byle jakich specyfików chemicznych, możesz wyrządzić swojemu rowerowi krzywdę.
     </div>
 ]
 
 const section2 = [
     <div>
-        Bardzo popularnym sposobem czyszczenia łańcucha, stosowanym wielu amatorów, oraz, o zgrozo, warsztaty rowerowe, jest mycie napędu w słoiku z benzyną ekstrakcyjną, co
+        Bardzo popularnym sposobem czyszczenia łańcucha, stosowanym wielu amatorów, oraz, o zgrozo, warsztaty rowerowe, jest mycie napędu w słoiku z benzyną ekstrakcyjną, co 
         <b>zdecydowanie odradzam</b>. Benzyna tak zastosowana zostawia brzydki nalot, czyści słabo oraz wysusza łańcuch i powoduje luz na ogniwach. Co innego w przypadku nanoszenia
-        pewnych ilości [1] beznyny na szmatkę i przeszorowaniu wszystkiego ręcznie. Wciąż nie jest to super efektywny sposób, ale co nieco w ten sposób da się wyczyścić.
+        pewnych ilości [1] beznyny na szmatkę i przeszorowaniu wszystkiego ręcznie. Wciąż nie jest to super efektywny sposób, ale co nieco w ten sposób da się wyczyścić. W zasadzie
+        niewiele więcej da się powiedzieć o wszelkiej maści [2] odtłuszczaczasz - są okej, ale istnieje sporo lepszych sposobów.
     </div>,
     <div>
-
+        Na rynku mamy też [3] maszynki czyszczące. Ich plusem jest na pewno tego, że nie trzeba zdejmować łańcucha - można to robić na rowerze tak jak stoi. Muszę powiedzieć, że
+        przy zastosowaniu z ropą, albo dobrym środkiem czyszczącym coś takiego sprawuje się naprawdę nieźle. 
+    </div>,
+    <div>
+        <img className="photo-medium" src={ChainCleaningMachine} alt="chainCleaningMachine"></img>
+    </div>,
+    <div>
+        Na sam koniec zostawiłem mój ulubiony sposób czyszczenia, czyli [4] pianka marki Fenwicks. Nie syfi wokół, bardzo ładnie pachnie i czyści wszelkie zabrudzenia i smary tak dobrze, 
+        że używam jej z powodzeniem do wszystkich części napędu, wielu partii roweru, a także do czyszczenia wielu zabrudzeń nawet nie związanych z rowerem. Piankę wystarczy nałożyć
+        na łańcuch, odczekać kilka minut i zacząć ścierać. Naprawdę polecam.
+    </div>,
+    <div>
+        <img className="photo-medium" src={Fenwicks} alt="fenwicks"></img>
     </div>
 ]
 

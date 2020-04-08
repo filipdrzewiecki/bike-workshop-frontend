@@ -33,7 +33,7 @@ import Play from '../../Content/Maintenance/Articles/play.jsx';
 import SuspensionPreassure from '../../Content/Maintenance/Articles/suspension-preassure.jsx';
 import TyrePreassure from '../../Content/Maintenance/Articles/tyre-preassure.jsx';
 import TyreWorn from '../../Content/Maintenance/Articles/tyre-worn.jsx';
-import WheelWash from '../../Content/Maintenance/Articles/wheel-wash.jsx';
+import ChainLubricating from '../../Content/Maintenance/Articles/chain-lubricating.jsx';
 //Compatibility
 import Compatibility from '../../Content/Compatibility/compatibility.jsx';
 import HubCompatibilityArticle from '../../Content/Compatibility/Articles/hub.jsx';
@@ -128,7 +128,7 @@ const PageBody = () => {
                 <Route path="/maintenance/adjustments/tyres" exact component={TyreWorn} />
                 <Route path="/maintenance/wash/bicycle" exact component={BicycleWash} />
                 <Route path="/maintenance/wash/drivetrain" exact component={DrivetrainWash} />
-                <Route path="/maintenance/wash/wheel" exact component={WheelWash} />
+                <Route path="/maintenance/wash/chain-lubricating" exact component={ChainLubricating} />
                 {/* COMPATIBILITY */}
                 <Route path="/compatibility" exact component={Compatibility} />
                 <Route path="/compatibility/frame/headset" exact component={HeadsetType} />
