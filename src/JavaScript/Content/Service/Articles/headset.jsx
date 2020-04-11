@@ -2,10 +2,7 @@ import '../../../Css/index.css';
 import React from 'react';
 
 import Article from '../../../Page/PageElements/article.jsx';
-import PartialService from './headset-partial.service';
-import FullService from './headset-full.service';
 import SubPage from '../../../Page/PageElements/section.jsx';
-import SectionPanel from '../../../Page/ContentComponents/sectionPanel';
 
 
 const introduction = [
@@ -27,14 +24,6 @@ const paragraphs = [
     <SubPage
         title="Wymiana sterów"
         paragraphs={introduction}
-    />,
-    <SectionPanel
-        title="Serwis częściowy"
-        content={<PartialService />}
-    />,
-    <SectionPanel
-        title="Pełen serwis"
-        content={<FullService />}
     />
 ]
 
