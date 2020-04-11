@@ -2,8 +2,6 @@ import '../../Css/index.css';
 import React from 'react';
 import SideMenu from './sideMenu.jsx';
 import { Route, Switch, Link } from "react-router-dom";
-import VotingPoll from './poll'
-
 //News
 import Main from '../../Content/News/main.jsx';
 //Service
@@ -90,7 +88,13 @@ const LeftMenu = () => {
 
 const RightMenu = () => {
     return (
-        <VotingPoll/>
+        <SideMenu
+            paragraphs={[
+                <Link to={'/service/headset'}>Serwis sterów</Link>,
+                <Link to={'/compatibility/wheel/tyre-to-rim'}>Jak dobrać opony</Link>,
+                <Link to={'/compatibility/drivetrain/cassette'}>Jak dobrać kasetę</Link>
+            ]}
+        />
     );
 }
 
