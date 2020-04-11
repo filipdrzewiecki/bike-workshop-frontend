@@ -1,7 +1,7 @@
 {
     "name": "bike-workshop-frontend",
     "version": "0.1.0",
-    "homepage": "https://5e91a69cd549ee000714bcfb--goofy-thompson-c6e3b5.netlify.com/",
+    "homepage": "http://goofy-thompson-c6e3b5.netlify.com/",
     "private": true,
     "dependencies": {
         "@material-ui/core": "^4.9.8",
