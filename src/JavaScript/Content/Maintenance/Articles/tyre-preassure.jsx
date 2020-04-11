@@ -8,9 +8,6 @@ import ValveAdapter from '../../../../resources/wheel/tyre/valveAdapter.PNG';
 import ElectronicBarometer from '../../../../resources/wheel/tyre/electronicBarometer.PNG';
 import Barometer from '../../../../resources/wheel/tyre/barometer.jpg';
 
-
-
-
 const section1 = [
     <div>
         Jakie powinno być prawidłowe ciśnienie w kołach? Od czego wysokość ciśnienia zależy, w jakich jednostkach przedstawia się ciśnienie oraz
