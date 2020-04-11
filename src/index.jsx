@@ -15,23 +15,21 @@ import SlidingNavbar from './JavaScript/Page/PageElements/slidingNavbar';
 class App extends React.Component {
 
     render() {
-        return ( 
-            <div>
-            <Router basename = { process.env.PUBLIC_URL } >
-            <SlidingNavbar />
-            <Logo />
-            <Navbar />
-            <PageBody />
-            <Footer />
-            </Router>  
-            </div>
+        return (
+
+                <Router basename={process.env.PUBLIC_URL} >
+                    <SlidingNavbar />
+                    <Logo />
+                    <Navbar />
+                    <PageBody />
+                    <Footer />
+                </Router>
+
         );
     }
 }
 
-ReactDOM.render( <
-    App / > ,
+ReactDOM.render(
+    <App />,
     document.getElementById('root')
 );
-
-export default App;
