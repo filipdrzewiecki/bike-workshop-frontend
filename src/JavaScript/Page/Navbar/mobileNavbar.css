@@ -1,3 +1,24 @@
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #282c34;
+    height: 56px;
+}
+
+.toolbar__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.toolbar__toggle-button {
+    position: absolute;
+    left: 50%;
+}
+
 .navbar-container {
     background-color: #282c34;
     color: white;
@@ -41,14 +62,13 @@
     align-items: center
 }
 
-.navbarLogo {
-    width: 20%;
-    height: 80px;
+.navbarLogo_mobil {
+    height: 80%;
     display: flex;
-    align-items: center
+    align-items: center;
 }
 
-.navbarLogo img {
-    height: 50px;
+.navbarLogo_mobil img {
+    height: 100%;
     margin: auto;
 }
