@@ -28,13 +28,11 @@ const page = [
 
 const Main = () => {
     return (
-        <div>
         <Page 
             title="Siema pedalarzu!"
             paragraphs={page}
             isBackButton={false}
         />
-        </div>
     );
 }
 

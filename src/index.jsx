@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 
 import './JavaScript/Css/index.css';
 
-import Toolbar from './JavaScript/Page/Navbar/toolbar';
+import Navbar from './JavaScript/Page/Navbar/navbar';
 import PageBody from './JavaScript/Page/PageElements/body';
 
 import { BrowserRouter as Router } from "react-router-dom";
 import Footer from './JavaScript/Page/PageElements/footer';
-import SlidingNavbar from './JavaScript/Page/PageElements/slidingNavbar';
+import SlidingNavbar from './JavaScript/Page/Navbar/slidingNavbar';
 
 class App extends React.Component {
 
@@ -16,7 +16,7 @@ class App extends React.Component {
         return (
                 <Router>
                     <SlidingNavbar />
-                    <Toolbar />
+                    <Navbar />
                     <PageBody />
                     <Footer />
                 </Router>

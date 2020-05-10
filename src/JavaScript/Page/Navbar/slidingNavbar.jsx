@@ -1,6 +1,6 @@
 import '../../Css/index.css';
 import React, {Component} from 'react';
-import Navbar from '../Navbar/navbar';
+import Navbar from './navbar';
 
 
 function RenderNavbar(props) {
@@ -31,7 +31,7 @@ export default class SlidingNavbar extends Component {
     const { prevScrollpos } = this.state;
 
     const currentScrollPos = window.pageYOffset;
-    const visible = 663 > currentScrollPos;
+    const visible = 0 > currentScrollPos;
 
     this.setState({
       prevScrollpos: currentScrollPos,

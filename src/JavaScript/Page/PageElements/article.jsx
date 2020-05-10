@@ -1,4 +1,4 @@
-import '../../Css/page.css';
+import './article.css';
 import React from 'react';
 import IconGoBack from '../../../resources/icon/go-back.png';
 import { Link } from "react-router-dom";

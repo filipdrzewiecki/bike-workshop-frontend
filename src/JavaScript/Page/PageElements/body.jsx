@@ -1,6 +1,7 @@
-import '../../Css/index.css';
+import './body.css';
 import React from 'react';
-import SideMenu from './sideMenu.jsx';
+import SideMenuLeft from './sideMenuLeft.jsx';
+import SideMenuRight from './sideMenuRight.jsx';
 import { Route, Switch, Link } from "react-router-dom";
 //News
 import Main from '../../Content/News/main.jsx';
@@ -76,7 +77,7 @@ import About from '../../Content/About/about.jsx';
 
 const LeftMenu = () => {
     return (
-        <SideMenu
+        <SideMenuLeft
             paragraphs={[
                 <Link to={'/service/headset'}>Serwis sterów</Link>,
                 <Link to={'/compatibility/wheel/tyre-to-rim'}>Jak dobrać opony</Link>,
@@ -88,7 +89,7 @@ const LeftMenu = () => {
 
 const RightMenu = () => {
     return (
-        <SideMenu
+        <SideMenuRight
             paragraphs={[
                 <Link to={'/service/headset'}>Serwis sterów</Link>,
                 <Link to={'/compatibility/wheel/tyre-to-rim'}>Jak dobrać opony</Link>,
