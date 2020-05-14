@@ -57,13 +57,11 @@ const content = [
 export default class Article extends React.Component {
     render() {
         return (
-            <div>
                 <ArticleBody
                     title="Jak prawidłowo czyścić napęd"
                     paragraphs={content}
                     backButtonLink='/maintenance'
                 />
-            </div>
         );
     }
 }

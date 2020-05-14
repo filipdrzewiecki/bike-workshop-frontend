@@ -20,14 +20,12 @@ const paragraphs = [
 export default class Compatibility extends React.Component {
     render() {
         return (
-            <div>
                 <Page
                     title="Praktyczne porady jak utrzymać rower"
                     secondaryTitle="w zdrowiu i czystości"
                     paragraphs={paragraphs}
                     isBackButton={false}
                 />
-            </div>
         );
     }
 }

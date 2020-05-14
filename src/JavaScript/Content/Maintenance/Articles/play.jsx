@@ -34,13 +34,11 @@ const content = [
 export default class Article extends React.Component {
     render() {
         return (
-            <div>
                 <ArticleBody
                     title="Sprawdzenie, czy rower ma luzy"
                     paragraphs={content}
                     backButtonLink='/maintenance'
                 />
-            </div>
         );
     }
 }

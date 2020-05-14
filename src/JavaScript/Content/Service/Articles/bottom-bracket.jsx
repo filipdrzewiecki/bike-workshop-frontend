@@ -11,13 +11,11 @@ const paragraphs = [
 export default class BottomBracketReplaceArticle extends React.Component {
     render() {
         return (
-            <div>
                 <Article
                     title="Serwis i wymiana wkładu suportu"
                     paragraphs={paragraphs}
                     backButtonLink='/service'
                 />
-            </div>
         );
     }
 }

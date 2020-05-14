@@ -31,13 +31,11 @@ const paragraphs = [
 export default class Service extends React.Component {
     render() {
         return (
-            <div>
                 <Page
                     title="Porady serwisowe"
                     paragraphs={paragraphs}
                     isBackButton={false}
                 />
-            </div>
         );
     }
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './mobileNavbar.css';
 import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
 import CompanyLogo from '../../../resources/companyLogo.png';
+import { Link } from "react-router-dom";
 
 import SideDrawer from './SideDrawer/SideDrawer.jsx';
 import Backdrop from './Backdrop/Backdrop.jsx';
@@ -9,9 +10,9 @@ import Backdrop from './Backdrop/Backdrop.jsx';
 const Toolbar = props => (
     <header className="toolbar">
         <nav className="toolbar__navigation">
-            <div className="navbarLogo_mobil" >
-                <img src={CompanyLogo} alt="companyLogo2" ></img>
-            </div>
+        <div className="navbarLogo_web" >
+                    <Link to="/"><img src={CompanyLogo} alt="companyLogo" ></img></Link>
+                </div>
             <div className="toolbar__toggle-button">
                 <DrawerToggleButton click={props.drawerClickHandler} />
             </div>

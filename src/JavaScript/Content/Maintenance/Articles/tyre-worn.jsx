@@ -59,13 +59,11 @@ const content = [
 export default class Article extends React.Component {
     render() {
         return (
-            <div>
                 <ArticleBody
                     title="Zużycie opon"
                     paragraphs={content}
                     backButtonLink='/maintenance'
                 />
-            </div>
         );
     }
 }

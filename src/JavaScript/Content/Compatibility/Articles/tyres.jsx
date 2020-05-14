@@ -62,13 +62,11 @@ const paragraphs = [
 export default class Article extends React.Component {
   render() {
       return (
-          <div>
               <ArticleBody
                   title="Jak dobrać rozmiar opony do obręczychy"
                   paragraphs={paragraphs}
                   backButtonLink='/compatibility'
               />
-          </div>
       );
   }
 }

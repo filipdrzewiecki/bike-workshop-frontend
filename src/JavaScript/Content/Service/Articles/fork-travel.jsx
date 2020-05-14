@@ -11,13 +11,11 @@ const paragraphs = [
 export default class ChainArticle extends React.Component {
     render() {
         return (
-            <div>
                 <Article
                     title="Zwiększenie skoku widelca"
                     paragraphs={paragraphs}
                     backButtonLink='/service'
                 />
-            </div>
         );
     }
 }

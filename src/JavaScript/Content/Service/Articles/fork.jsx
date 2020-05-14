@@ -11,13 +11,11 @@ const paragraphs = [
 export default class ForkArticle extends React.Component {
     render() {
         return (
-            <div>
                 <Article
                     title="Serwis widelca"
                     paragraphs={paragraphs}
                     backButtonLink='/service'
                 />
-            </div>
         );
     }
 }

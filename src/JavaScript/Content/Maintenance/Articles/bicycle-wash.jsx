@@ -44,14 +44,12 @@ const content = [
 export default class Article extends React.Component {
     render() {
         return (
-            <div>
                 <ArticleBody
                     title="Jak prawidłowo myć rower"
                     secondaryTitle="żeby go nie uszkodzić"
                     paragraphs={content}
                     backButtonLink='/maintenance'
                 />
-            </div>
         );
     }
 }

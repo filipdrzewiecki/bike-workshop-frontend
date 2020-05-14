@@ -11,13 +11,11 @@ const paragraphs = [
 export default class HandlebarReplaceArticle extends React.Component {
     render() {
         return (
-            <div>
                 <Article
                     title="Wymiana układu kierownicy"
                     paragraphs={paragraphs}
                     backButtonLink='/service'
                 />
-            </div>
         );
     }
 }

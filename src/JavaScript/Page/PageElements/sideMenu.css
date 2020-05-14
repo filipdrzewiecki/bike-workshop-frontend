@@ -8,7 +8,6 @@
 }
 
 .sidebar-left {
-    background-color: tomato;
     width: 20%;
     order: 1;
 }
@@ -18,7 +17,6 @@
 }
 
 .sidebar-right {
-    background-color: yellow;
     width: 20%;
     order: 3;
 }

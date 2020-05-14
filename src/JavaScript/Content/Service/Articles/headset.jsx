@@ -30,13 +30,11 @@ const paragraphs = [
 export default class ForkReplaceArticle extends React.Component {
     render() {
         return (
-            <div>
                 <Article
                     title="Wymiana sterów"
                     paragraphs={paragraphs}
                     backButtonLink='/service'
                 />
-            </div>
         );
     }
 }

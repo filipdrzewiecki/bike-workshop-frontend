@@ -74,13 +74,11 @@ const content = [
 export default class Article extends React.Component {
     render() {
         return (
-            <div>
                 <ArticleBody
                     title="Prawidłowe ciśnienie w kołach"
                     paragraphs={content}
                     backButtonLink='/maintenance'
                 />
-            </div>
         );
     }
 }

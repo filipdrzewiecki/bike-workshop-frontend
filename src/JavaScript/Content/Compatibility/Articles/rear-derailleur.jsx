@@ -11,13 +11,11 @@ const paragraphs = [
 export default class Article extends React.Component {
     render() {
         return (
-            <div>
                 <ArticleBody
                     title="Przerzutka tylna"
                     paragraphs={paragraphs}
                     backButtonLink='/compatibility'
                 />
-            </div>
         );
     }
 }

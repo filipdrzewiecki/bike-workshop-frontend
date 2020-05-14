@@ -74,13 +74,11 @@ const paragraphs = [
 export default class Article extends React.Component {
   render() {
       return (
-          <div>
               <ArticleBody
                   title="Stery - rodzaje i charakterystyka"
                   paragraphs={paragraphs}
                   backButtonLink='/compatibility'
               />
-          </div>
       );
   }
 }

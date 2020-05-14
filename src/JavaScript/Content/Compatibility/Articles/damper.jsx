@@ -11,14 +11,12 @@ const paragraphs = [
 export default class Article extends React.Component {
     render() {
         return (
-            <div>
-                <ArticleBody
-                    title="Damper"
-                    secondaryTitle="amortyzator na tył"
-                    paragraphs={paragraphs}
-                    backButtonLink='/compatibility'
-                />
-            </div>
+            <ArticleBody
+                title="Damper"
+                secondaryTitle="amortyzator na tył"
+                paragraphs={paragraphs}
+                backButtonLink='/compatibility'
+            />
         );
     }
 }

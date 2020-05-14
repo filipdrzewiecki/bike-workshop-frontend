@@ -11,13 +11,11 @@ const paragraphs = [
 export default class CrankArticle extends React.Component {
     render() {
         return (
-            <div>
                 <Article
                     title="Serwis i wymiana korby"
                     paragraphs={paragraphs}
                     backButtonLink='/service'
                 />
-            </div>
         );
     }
 }

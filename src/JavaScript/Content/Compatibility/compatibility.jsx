@@ -11,13 +11,11 @@ const paragraphs = [
 export default class Compatibility extends React.Component {
     render() {
         return (
-            <div>
-                <Page
-                    title="Kompendium wiedzy o częściach rowerowych"
-                    paragraphs={paragraphs}
-                    isBackButton={false}
-                />
-            </div>
+            <Page
+                title="Kompendium wiedzy o częściach rowerowych"
+                paragraphs={paragraphs}
+                isBackButton={false}
+            />
         );
     }
 }

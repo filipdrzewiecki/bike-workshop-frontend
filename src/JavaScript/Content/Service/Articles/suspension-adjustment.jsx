@@ -11,13 +11,11 @@ const paragraphs = [
 export default class ChainArticle extends React.Component {
     render() {
         return (
-            <div>
                 <Article
                     title="Regulacja amortyzacji"
                     paragraphs={paragraphs}
                     backButtonLink='/service'
                 />
-            </div>
         );
     }
 }

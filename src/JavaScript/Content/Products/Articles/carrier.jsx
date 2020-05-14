@@ -11,13 +11,11 @@ const paragraphs = [
 export default class Article extends React.Component {
     render() {
         return (
-            <div>
                 <ArticleBody
                     title="Bagażnik"
                     paragraphs={paragraphs}
                     backButtonLink='/products'
                 />
-            </div>
         );
     }
 }

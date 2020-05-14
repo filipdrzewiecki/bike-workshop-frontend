@@ -11,13 +11,11 @@ const paragraphs = [
 export default class CassetteArticle extends React.Component {
     render() {
         return (
-            <div>
                 <Article
                     title="Serwis i wymiana kasety"
                     paragraphs={paragraphs}
                     backButtonLink='/service'
                 />
-            </div>
         );
     }
 }

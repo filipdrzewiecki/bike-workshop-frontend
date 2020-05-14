@@ -11,14 +11,12 @@ const paragraphs = [
 export default class Article extends React.Component {
     render() {
         return (
-            <div>
                 <ArticleBody
                     title="Mostek"
                     secondaryTitle="czyli wspornik kierownicy bez tajemnic"
                     paragraphs={paragraphs}
                     backButtonLink='/compatibility'
                 />
-            </div>
         );
     }
 }
