@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 const CompatibilityMenu = () => {
     return (
         <div className="section-parent">
-            <div className="section-block">
-                <h1>Rama <img className="icon" src={FrameIcon} alt="frame"></img></h1>
+            <div className="section-block-long">
+                <div className="section-block-symbol"><img src={FrameIcon} alt="frame"></img></div>
                 <ul>
                     <li><Link to={'/compatibility/frame/bottom-bracket'}>Suport</Link></li>
                     <li><Link to={'/compatibility/frame/headset'}>Stery</Link></li>
@@ -21,8 +21,8 @@ const CompatibilityMenu = () => {
                     <li><Link to={'/compatibility/frame/technologies/hollowtech'}>[Technologia] Hollowtech</Link></li>
                 </ul>
             </div>,
-    <div className="section-block">
-                <h1>Napęd <img className="icon" src={DriveIcon} alt="drivetrain"></img></h1>
+            <div className="section-block-long">
+                <div className="section-block-symbol"> <img src={DriveIcon} alt="drivetrain"></img></div>
                 <ul>
                     <li><Link to={'/compatibility/drivetrain/cassette'}>Kaseta</Link></li>
                     <li><Link to={'/compatibility/drivetrain/rear-derailleur'}>Przerzutka tylna</Link></li>
@@ -30,8 +30,8 @@ const CompatibilityMenu = () => {
                     <li><Link to={'/compatibility/drivetrain/crank'}>Korba</Link></li>
                 </ul>
             </div>,
-    <div className="section-block">
-                <h1>Amortyzator <img className="icon" src={ForkIcon} alt="frame"></img></h1>
+            <div className="section-block-long">
+                <div className="section-block-symbol"> <img src={ForkIcon} alt="frame"></img></div>
                 <ul>
                     <li><Link to={'/compatibility/suspension/disciplines'}>Dyscypliny amortyzatorów</Link></li>
                     <li><Link to={'/compatibility/suspension/fork-types'}>Typy amortyzatorów</Link></li>
@@ -39,8 +39,8 @@ const CompatibilityMenu = () => {
                     <li><Link to={'/compatibility/suspension/damper'}>Dampery</Link></li>
                 </ul>
             </div>,
-    <div className="section-block">
-                <h1>Koła <img className="icon" src={WheelIcon} alt="wheel"></img></h1>
+            <div className="section-block-long">
+                <div className="section-block-symbol"> <img src={WheelIcon} alt="wheel"></img></div>
                 <ul>
                     <li><Link to={'/compatibility/wheel/types'}>Typy kół</Link></li>
                     <li><Link to={'/compatibility/wheel/tyre-to-rim'}>Stosunek szerokości do obręczy</Link></li>

@@ -12,7 +12,7 @@ const ProductsMenu = () => {
     return (
         <div className="section-parent">
             <div className="section-block-long">
-                <h1>Narzędzia <img className="icon" src={WrenchIcon} alt="wrench"></img></h1>
+                <div className="section-block-symbol"> <img src={WrenchIcon} alt="wrench"></img></div>
                 <ul>
                     <li><Link to={'/products/tools/basic-tools'}>Zestaw podstawowych narzędzi do codziennych napraw</Link></li>
                     <li><Link to={'/products/tools/brands'}>Dobre i złe marki</Link></li>
@@ -20,7 +20,7 @@ const ProductsMenu = () => {
                 </ul>
             </div>,
             <div className="section-block-long">
-                <h1>Akcesoria <img className="icon" src={AccesoriesICon} alt="accessories"></img></h1>
+                <div className="section-block-symbol"> <img src={AccesoriesICon} alt="accessories"></img></div>
                 <ul>
                     <li><Link to={'/products/accessories/multitool'}>Multitool</Link></li>
                     <li><Link to={'/products/accessories/lights'}>Lampki</Link></li>
@@ -30,7 +30,7 @@ const ProductsMenu = () => {
                 </ul>
             </div>,
             <div className="section-block-long">
-                <h1>Ubrania <img className="icon" src={ClothingIcon} alt="clothing"></img></h1>
+                <div className="section-block-symbol"><img src={ClothingIcon} alt="clothing"></img></div>
                 <ul>
                     <li><Link to={'/products/clothing/shoes'}>Buty</Link></li>
                     <li><Link to={'/products/clothing/pads'}>Pieluchy</Link></li>
@@ -41,7 +41,7 @@ const ProductsMenu = () => {
                 </ul>
             </div>,
             <div className="section-block-long">
-                <h1>Części <img className="icon" src={PartsIcon} alt="parts"></img></h1>
+                <div className="section-block-symbol"> <img src={PartsIcon} alt="parts"></img></div>
                 <ul>
                     <li><Link to={'/products/parts/brands'}>Główne marki napędu</Link></li>
                 </ul>

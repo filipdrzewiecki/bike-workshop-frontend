@@ -10,7 +10,7 @@ const MaintenanceMenu = () => {
     return (
         <div className="section-parent">
             <div className="section-block-long">
-                <h1>Regulacja <img className="icon" src={WrenchIcon} alt="wrench"></img></h1>
+                <div className="section-block-symbol"><img src={WrenchIcon} alt="wrench"></img></div>
                 <ul>
                     <li><Link to={'/maintenance/adjustments/play'}>Czy rower ma luzy</Link></li>
                     <li><Link to={'/maintenance/adjustments/tyre-preassure'}>Prawidłowe ciśnienie w kołach</Link></li>
@@ -20,7 +20,7 @@ const MaintenanceMenu = () => {
                 </ul>
             </div>,
             <div className="section-block-long">
-                <h1>Czyszczenie i smarowanie <img className="icon" src={SpongeIcon} alt="sponge"></img></h1>
+                <div className="section-block-symbol"> <img src={SpongeIcon} alt="sponge"></img></div>
                 <ul>
                     <li><Link to={'/maintenance/wash/bicycle'}>Jak myć rower</Link></li>
                     <li><Link to={'/maintenance/wash/drivetrain'}>Czeszczenie napędu</Link></li>

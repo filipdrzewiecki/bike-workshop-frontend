@@ -11,7 +11,7 @@ const ServiceMenu = () => {
     return (
         <div className="section-parent">
             <div className="section-block-long">
-                <h1>Rama <img className="icon" src={FrameIcon} alt="frame"></img></h1>
+                <div className="section-block-symbol"><img src={FrameIcon} alt="frame"></img></div>
                 <ul>
                     <li><Link to={'/service/frame/headset'}>Stery</Link></li>
                     <li><Link to={'/service/frame/bottom-bracket'}>Suport</Link></li>
@@ -20,7 +20,7 @@ const ServiceMenu = () => {
                 </ul>
             </div>,
             <div className="section-block-long">
-                <h1>Napęd <img className="icon" src={DriveIcon} alt="drivetrain"></img></h1>
+            <div className="section-block-symbol"><img src={DriveIcon} alt="drivetrain"></img></div>
                 <ul>
                     <li><Link to={'/service/drivetrain/derailleurs'}>Regulacja przerzutek</Link></li>
                     <li><Link to={'/service/drivetrain/chain'}>Wymiana łańcucha</Link></li>
@@ -29,7 +29,7 @@ const ServiceMenu = () => {
                 </ul>
             </div>,
             <div className="section-block-long">
-                <h1>Amortyzacja<img className="icon" src={ForkIcon} alt="suspension"></img></h1>
+            <div className="section-block-symbol"><img src={ForkIcon} alt="suspension"></img></div>
                 <ul>
                     <li><Link to={'/service/suspension/travel-extension'}>Zwiększenie skoku widelca</Link></li>
                     <li><Link to={'/service/suspension/adjustment'}>Regulacja zawieszenia</Link></li>
@@ -38,7 +38,7 @@ const ServiceMenu = () => {
                 </ul>
             </div>,
             <div className="section-block-long">
-                <h1>Koła <img className="icon" src={WheelIcon} alt="frame"></img></h1>
+            <div className="section-block-symbol"><img src={WheelIcon} alt="frame"></img></div>
                 <ul>
                     <li><Link to={'/service/wheel/freehub'}>Serwis bębenka</Link></li>
                     <li><Link to={'/service/wheel/truing'}>Centrowanie</Link></li>

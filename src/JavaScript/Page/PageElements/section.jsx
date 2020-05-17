@@ -1,5 +1,4 @@
 import '../../Css/index.css';
-import '../../Css/page.css';
 
 import React from 'react';
 
