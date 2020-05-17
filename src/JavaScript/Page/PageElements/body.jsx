@@ -79,7 +79,7 @@ const LeftMenu = () => {
     return (
         <SideMenuLeft
             paragraphs={[
-                <Link to={'/service/headset'}>Serwis sterów</Link>,
+                <Link to={'/service/frame/headset'}>Serwis sterów</Link>,
                 <Link to={'/compatibility/wheel/tyre-to-rim'}>Jak dobrać opony</Link>,
                 <Link to={'/compatibility/drivetrain/cassette'}>Jak dobrać kasetę</Link>
             ]}
@@ -91,7 +91,7 @@ const RightMenu = () => {
     return (
         <SideMenuRight
             paragraphs={[
-                <Link to={'/service/headset'}>Serwis sterów</Link>,
+                <Link to={'/service/frame/headset'}>Serwis sterów</Link>,
                 <Link to={'/compatibility/wheel/tyre-to-rim'}>Jak dobrać opony</Link>,
                 <Link to={'/compatibility/drivetrain/cassette'}>Jak dobrać kasetę</Link>
             ]}

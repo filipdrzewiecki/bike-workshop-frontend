@@ -1,19 +1,10 @@
-.pageSideMenu {
-    background-color: tomato;
-    width: 10%;
-    height: 100%;
-    min-height: 600px;
-    text-align: center;
-    margin-top: 30px;
-}
-
 .sidebar-left {
     width: 20%;
     order: 1;
 }
 
 .sidebar-left h4 {
-    margin-left: 10%;
+    text-align: center;
 }
 
 .sidebar-right {
@@ -22,7 +13,7 @@
 }
 
 .sidebar-right h4 {
-    margin-left: 10%;
+    text-align: center;
 }
 
 @media (max-width: 768px) {

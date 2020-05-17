@@ -47,6 +47,17 @@
     color: lightblue;
 }
 
+.hamburger_menu {
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.hamburger_menu img {
+    height: 40px;
+    margin: auto;
+}
+
 @media (min-width: 769px) {
     .side-drawer {
         display: none;

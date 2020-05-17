@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const ServiceMenu = () => {
     return (
         <div className="section-parent">
-            <div className="section-block">
+            <div className="section-block-long">
                 <h1>Rama <img className="icon" src={FrameIcon} alt="frame"></img></h1>
                 <ul>
                     <li><Link to={'/service/frame/headset'}>Stery</Link></li>
@@ -19,7 +19,7 @@ const ServiceMenu = () => {
                     <li><Link to={'/service/frame/handlebar'}>Wymiana mostka i kierownicy</Link></li>
                 </ul>
             </div>,
-            <div className="section-block">
+            <div className="section-block-long">
                 <h1>Napęd <img className="icon" src={DriveIcon} alt="drivetrain"></img></h1>
                 <ul>
                     <li><Link to={'/service/drivetrain/derailleurs'}>Regulacja przerzutek</Link></li>
@@ -28,7 +28,7 @@ const ServiceMenu = () => {
                     <li><Link to={'/service/drivetrain/crank'}>Wymiana korby</Link></li>
                 </ul>
             </div>,
-            <div className="section-block">
+            <div className="section-block-long">
                 <h1>Amortyzacja<img className="icon" src={ForkIcon} alt="suspension"></img></h1>
                 <ul>
                     <li><Link to={'/service/suspension/travel-extension'}>Zwiększenie skoku widelca</Link></li>
@@ -37,7 +37,7 @@ const ServiceMenu = () => {
                     <li><Link to={'/service/suspension/damper'}>Serwis dampera</Link></li>
                 </ul>
             </div>,
-            <div className="section-block">
+            <div className="section-block-long">
                 <h1>Koła <img className="icon" src={WheelIcon} alt="frame"></img></h1>
                 <ul>
                     <li><Link to={'/service/wheel/freehub'}>Serwis bębenka</Link></li>
