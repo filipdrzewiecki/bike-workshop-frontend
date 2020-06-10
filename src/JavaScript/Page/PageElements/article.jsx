@@ -48,7 +48,7 @@ export default class Page extends React.Component {
                     <RenderGoBack isBackButton={this.props.isBackButton} backButtonLink={this.props.backButtonLink} />
                 </div>
                 <div className="pageContent">
-                    {this.props.paragraphs.map((paragraph) => <div>{paragraph}</div>)}
+                    {this.props.paragraphs.map((paragraph) => <div className="section">{paragraph}</div>)}
                 </div>
             </div>
         );

@@ -1,0 +1,38 @@
+.bar-table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.bar-table td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 7.69%
+}
+
+.full {
+    background-color: rgb(67, 67, 255);
+}
+
+.right {
+    background-image: linear-gradient(to right, rgb(67, 67, 255), white);
+}
+
+.left {
+    background-image: linear-gradient(to left, rgb(67, 67, 255), white);
+}
+
+.bar-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.icon-table {
+    height: 40px;
+}

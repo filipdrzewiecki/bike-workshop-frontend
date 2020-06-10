@@ -8,22 +8,22 @@ code {
 }
 
 a {
-    color: #0000FF;
+    color: #282c34;
     text-decoration: none;
 }
 
 a:visited {
-    color: #0000FF;
+    color: #282c34;
     text-decoration: none;
 }
 
 a:hover {
-    color: #282c34;
+    color: goldenrod;
     text-decoration: none;
 }
 
 a:active {
-    color: #282c34;
+    color: goldenrod;
     text-decoration: none;
 }
 
@@ -101,6 +101,10 @@ a:active {
 
 .photo-horizontal {
     height: 120px;
+}
+
+.photo-horizontal-long {
+    height: 180px;
 }
 
 .photo-medium {
