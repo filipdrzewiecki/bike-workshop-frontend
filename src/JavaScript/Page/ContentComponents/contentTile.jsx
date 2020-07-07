@@ -6,7 +6,7 @@ const ContentTile = (props) => {
         <div className="contentTile">
             
             <div className="contentTileImage">
-                <img className="photo" src={props.imageSource} alt="thread"></img>
+                <img className="photo-w-120" src={props.imageSource} alt="thread"></img>
             </div>
 
             <div className="contentTileText">

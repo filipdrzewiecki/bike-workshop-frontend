@@ -65,10 +65,7 @@ const paragraphs = [
       Najczęściej występują w ramach karbonowych i wysokich modelach alu.
     
       </div>}
-    />,
-    
-    
-    <div></div>,
+    />
 ]
 
 export default class Article extends React.Component {

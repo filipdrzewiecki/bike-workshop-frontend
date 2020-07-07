@@ -23,10 +23,10 @@ const TableHeadsetTypes = () => {
             <td>Gwintowane</td>
           </tr>
           <tr>
-            <td><img className="photo" src={ImageEC} alt="ec"></img></td>
-            <td><img className="photo" src={ImageZS} alt="zs"></img></td>
-            <td><img className="photo" src={ImageIS} alt="ic"></img></td>
-            <td><img className="photo" src={ImageThread} alt="thread"></img></td>
+            <td><img className="photo-w-120" src={ImageEC} alt="ec"></img></td>
+            <td><img className="photo-w-120" src={ImageZS} alt="zs"></img></td>
+            <td><img className="photo-w-120" src={ImageIS} alt="ic"></img></td>
+            <td><img className="photo-w-120" src={ImageThread} alt="thread"></img></td>
           </tr>
           
         </table>
